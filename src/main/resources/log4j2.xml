@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+  <appenders>
+    <!--<Console name="Console" target="SYSTEM_OUT">-->
+    <!--  <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+    <!--</Console>-->
+    <File name="LogInfo" fileName="logs/info.log">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      <Filters>
+        <MarkerFilter marker="INPUT_HISTORY"  />
+      </Filters>
+    </File>
+
+<!--    <File name="LogErrInput" fileName="logs/err_input.log">-->
+<!--      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>-->
+<!--      <Filters>-->
+<!--        <MarkerFilter marker="INVALID_STATION"  />-->
+<!--      </Filters>-->
+<!--    </File>-->
+
+<!--    <File name="LogException" fileName="logs/exception.log">-->
+<!--      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+<!--      <Filters>-->
+<!--        <MarkerFilter marker="ERROR_MSG"  />-->
+<!--      </Filters>-->
+<!--    </File>-->
+  </appenders>
+
+  <loggers>
+    <root level="info">
+      <appender-ref ref="LogInfo" />
+<!--      <appender-ref ref="LogErrInput" level="info"/>-->
+<!--      <appender-ref ref="LogException" level="error"/>-->
+    </root>
+
+  </loggers>
+</configuration>
