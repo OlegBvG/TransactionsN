@@ -1,14 +1,13 @@
 public class PaymentDetails {
-    private String fromAccountNum;
-    private String toAccountNum;
-    private long amount;
+    String fromAccountNum;
+    String toAccountNum;
+    private Long amount;
 
-    public PaymentDetails(String fromAccountNum, String toAccountNum, long amount) {
+    public PaymentDetails(String fromAccountNum, String toAccountNum, Long amount) {
         this.fromAccountNum = fromAccountNum;
         this.toAccountNum = toAccountNum;
         this.amount = amount;
     }
-
     public String getFromAccountNum() {
         return fromAccountNum;
     }
@@ -25,11 +24,11 @@ public class PaymentDetails {
         this.toAccountNum = toAccountNum;
     }
 
-    public long getAmount() {
+    public Long getAmount() {
         return amount;
     }
 
-    public void setAmount(long amount) {
+    public void setAmount(Long amount) {
         this.amount = amount;
     }
 }

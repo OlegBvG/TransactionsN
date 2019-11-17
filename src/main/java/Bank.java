@@ -13,17 +13,15 @@ public class Bank
     private static final Marker INPUT_HISTORY_MARKER = MarkerFactory.getMarker("INPUT_HISTORY");
     private ConcurrentHashMap<String, Account> accounts;
 
-
-
     Bank(ConcurrentHashMap<String, Account> accounts) {
         this.accounts = accounts;
     }
 
     private volatile int countTransfer = 0;
     private volatile int maxCountTransfer = 0;
-    private volatile boolean doLock;
 
     private final Random random = new Random();
+
 
     public synchronized boolean isFraud(String fromAccountNum, String toAccountNum, long amount)
         throws InterruptedException
@@ -40,45 +38,82 @@ public class Bank
      * счетов (как – на ваше усмотрение)
      */
 
-      void transfer(PaymentDetails paymentDetails) throws InterruptedException {
+
+    void transfer(PaymentDetails paymentDetails) {
 
         maxCountTransfer = Math.max(maxCountTransfer, countTransfer);
+        ++countTransfer;
 
-        logger.info(Bank.INPUT_HISTORY_MARKER,"Thread: " + Thread.currentThread().getName() + " == " + "transfer ===  "
-                + paymentDetails.getFromAccountNum() + " => " + paymentDetails.getToAccountNum() + " => " + paymentDetails.getAmount() + " countTransfer " + countTransfer + " maxCountTransfer " + maxCountTransfer );
-        System.out.println("Thread: " + Thread.currentThread().getName() + " == " + "transfer ===  "
-                + paymentDetails.getFromAccountNum() + " => " + paymentDetails.getToAccountNum() + " => " + paymentDetails.getAmount() + " countTransfer " + countTransfer++ + " maxCountTransfer " + maxCountTransfer );
+        logger.info(Bank.INPUT_HISTORY_MARKER,"Thread: " + Thread.currentThread().getName() + " == " + "TRANSFER ===  "
+                + paymentDetails.getFromAccountNum() + " => " + paymentDetails.getToAccountNum()
+                + " => " + paymentDetails.getAmount() + " countTransfer " + countTransfer + " maxCountTransfer " + maxCountTransfer );
 
-        if (accounts.containsKey(paymentDetails.getFromAccountNum()) && accounts.containsKey(paymentDetails.getToAccountNum())) {
+        if (paymentDetails.getAmount() == null) {
+
+//            synchronized (this) {
+                accounts.get(paymentDetails.getFromAccountNum()).setLocked(true);
+                accounts.get(paymentDetails.getToAccountNum()).setLocked(true);
+
+                logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tLocked next accounts: "
+                        + paymentDetails.getFromAccountNum() + " and " + paymentDetails.getToAccountNum());
+//            }
+        } else {
 
             if (!accounts.get(paymentDetails.getFromAccountNum()).isLocked() && !accounts.get(paymentDetails.getToAccountNum()).isLocked()) {
-                doLock = false;
 
-                if (paymentDetails.getAmount() > 50000){
-                    doLock = isFraud(paymentDetails.getFromAccountNum(), paymentDetails.getToAccountNum(), paymentDetails.getAmount());
-                }
-
-                synchronized (this) {
-
-                    if (doLock) {
-                        accounts.get(paymentDetails.getFromAccountNum()).setLocked(true);
-                        accounts.get(paymentDetails.getToAccountNum()).setLocked(true);
-
-
-                        logger.info(Bank.INPUT_HISTORY_MARKER, "Locked next accounts: "
-                                + paymentDetails.getFromAccountNum() + " and " + paymentDetails.getToAccountNum() + "; countTransfer " + (countTransfer - 1));
-
-                    } else {
+//                synchronized (this) {
                         accounts.get(paymentDetails.getFromAccountNum()).debetMoney(paymentDetails.getAmount());
                         accounts.get(paymentDetails.getToAccountNum()).addMoney(paymentDetails.getAmount());
-                        logger.info(Bank.INPUT_HISTORY_MARKER, "Transfer: from "
-                                + paymentDetails.getFromAccountNum() + " to " + paymentDetails.getToAccountNum() + "; amount = " + paymentDetails.getAmount() + "; countTransfer " + (countTransfer - 1));
 
-                    }
+                        logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
+                                + paymentDetails.getFromAccountNum() + " to " + paymentDetails.getToAccountNum()
+                                + "; amount = " + paymentDetails.getAmount() );
+
+//                    }
                 }
             }
         }
+
+    void transfer(String fromAccountNum, String toAccountNum, long amount) {
+
+        maxCountTransfer = Math.max(maxCountTransfer, countTransfer);
+        ++countTransfer;
+
+        logger.info(Bank.INPUT_HISTORY_MARKER,"Thread: " + Thread.currentThread().getName() + " == " + "TRANSFER ===  "
+                + fromAccountNum + " => " + toAccountNum
+                + " => " + amount + " countTransfer " + countTransfer + " maxCountTransfer " + maxCountTransfer );
+
+        System.out.println("Thread: " + Thread.currentThread().getName() + " == " + "TRANSFER ===  "
+                + fromAccountNum + " => " + toAccountNum
+                + " => сумма " + amount + " countTransfer " + countTransfer + " maxCountTransfer " + maxCountTransfer );
+
+        if (amount == 0) {
+
+//            synchronized (this) {
+            accounts.get(fromAccountNum).setLocked(true);
+            accounts.get(toAccountNum).setLocked(true);
+
+            logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tLocked next accounts: "
+                    + fromAccountNum + " and " + toAccountNum );
+
+//            }
+        } else {
+
+            if (!accounts.get(fromAccountNum).isLocked() && !accounts.get(toAccountNum).isLocked()) {
+
+//                synchronized (this) {
+                accounts.get(fromAccountNum).debetMoney(amount);
+                accounts.get(toAccountNum).addMoney(amount);
+
+                logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
+                        + fromAccountNum + " to " + toAccountNum
+                        + "; amount = " + amount );
+
+//                    }
+            }
+        }
     }
+
 
     /**
      * TODO: реализовать метод. Возвращает остаток на счёте.

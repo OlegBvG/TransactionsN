@@ -3,29 +3,27 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class BankTest {
 
     private ConcurrentHashMap<String, Account> accounts = new ConcurrentHashMap<>();
     private Bank bank;
-    private int numberAccounts = 100;
-//    private int NTHREADS = 1500;
+//    public final CountDownLatch START = new CountDownLatch(10);
+    private final int ACCOUNT_NUMBERS = 100;
+    private final int THREADS = 8;
+    private final int TRANSFERS_COUNT = 1_000;
 
-//    ExecutorService exec = Executors.newFixedThreadPool(NTHREADS);
 //    ExecutorService exec = Executors.newCachedThreadPool();
-//    ExecutorService exec = Executors.newWorkStealingPool();
+    ExecutorService exec = Executors.newFixedThreadPool(THREADS);
 
     @Before
     public void setUp() {
-        String numberAcc = "00";
+        String numberAcc;
 
-        for (int i = 1; i < numberAccounts; i++){
+
+        for (int i = 1; i < ACCOUNT_NUMBERS; i++) {
             numberAcc = String.valueOf(i).trim();
             accounts.put(numberAcc, new Account(numberAcc, 1000000, false));
         }
@@ -39,55 +37,73 @@ public class BankTest {
 
 
     @Test
-    public  void testAccBank() throws InterruptedException {
+    public void testAccBank() throws InterruptedException {
         AtomicLong inputBalanceBank = bank.getBalanceBank();
         System.out.println("Входящий Баланс банка: " + inputBalanceBank);
 
-        ConcurrentLinkedQueue<PaymentDetails> queue = new ConcurrentLinkedQueue<PaymentDetails>();
+        String fromAccountNum;
+        String toAccountNum;
+        long amount;
 
-         AtomicReference<String> fromAccountNum = new AtomicReference<>();
-         AtomicReference<String> toAccountNum = new AtomicReference<>();
-         AtomicLong amount = new AtomicLong();
+        PaymentDetails paymentDetails;
 
-            for (int i = 1; i <= 1500; i++) {
-                fromAccountNum.set(String.valueOf((int) ((Math.random() * (numberAccounts - 1)) + 1)));
-                toAccountNum.set(String.valueOf((int) ((Math.random() * (numberAccounts - 1)) + 1)));
+        for (int i = 1; i <= TRANSFERS_COUNT; i++) {
+            fromAccountNum = (String.valueOf((int) ((Math.random() * (ACCOUNT_NUMBERS - 1)) + 1)));
+            toAccountNum = (String.valueOf((int) ((Math.random() * (ACCOUNT_NUMBERS - 1)) + 1)));
 
-            while (fromAccountNum.equals(toAccountNum.get())) {
-                toAccountNum.set(String.valueOf((int) ((Math.random() * (numberAccounts - 1)) + 1)));
+            while (fromAccountNum.equals(toAccountNum)) {
+                toAccountNum = (String.valueOf((int) ((Math.random() * (ACCOUNT_NUMBERS - 1)) + 1)));
             }
 
-            amount.set((long) (Math.random() * 100000));
+            amount = (long) (Math.random() * 55000);
 
-            queue.add(new PaymentDetails(fromAccountNum.get(), toAccountNum.get(), amount.get()));
 
+/*           if (amount > 50000 && bank.isFraud(fromAccountNum, toAccountNum, amount)) {
+                paymentDetails = new PaymentDetails(fromAccountNum, toAccountNum, null);
+            } else {
+                paymentDetails = new PaymentDetails(fromAccountNum, toAccountNum, amount);
             }
-
-        while (queue.size()>0){
-            PaymentDetails paymentDetailsQueue = queue.poll();
+            PaymentDetails finalPaymentDetails = paymentDetails;
             Runnable r = () -> {
-                try {
-                    bank.transfer(paymentDetailsQueue);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                bank.transfer(finalPaymentDetails);
+            };
+*/
+            //------------------
+
+            if (amount > 50000 && bank.isFraud(fromAccountNum, toAccountNum, amount)) {
+                amount = 0;
+            }
+
+            String finalFromAccountNum = fromAccountNum;
+            String finalToAccountNum = toAccountNum;
+            long finalAmount = amount;
+
+            Runnable r = () -> {
+                bank.transfer(finalFromAccountNum, finalToAccountNum, finalAmount);
             };
 
-//            exec.execute(r);
+            //------------------
 
-            Thread t = new Thread(r);
-            t.start();
+            exec.execute(r);
         }
 
-        System.out.println("currentThread - " + Thread.currentThread().getName());
-        Thread.currentThread().join(15000);
 
-        accounts.forEach((k, v) ->
-                System.out.println("account = " + k + " / " + v.getAccNumber() + "; сумма = " + v.getMoney()  + "; блокировка = " + v.isLocked() ) );
+            System.out.println("Active THREAD => " + Thread.activeCount());
+            exec.shutdown();
 
-        AtomicLong outputBalanceBank = bank.getBalanceBank();
-        System.out.println("Исходящий Баланс банка: " + outputBalanceBank);
+        while(Thread.activeCount() > 2){
+            System.out.println("Active THREAD in => " + Thread.activeCount());
+            System.out.println("Active THREAD in => " + Thread.getAllStackTraces());
+            Thread.sleep(100);
+        }
 
-        Assert.assertEquals(inputBalanceBank.get(), outputBalanceBank.get());
+            accounts.forEach((k, v) ->
+                    System.out.println("account = " + k + " / " + v.getAccNumber() + "; сумма = " + v.getMoney() + "; блокировка = " + v.isLocked()));
+
+            AtomicLong outputBalanceBank = bank.getBalanceBank();
+            System.out.println("Исходящий Баланс банка: " + outputBalanceBank);
+
+            Assert.assertEquals(inputBalanceBank.get(), outputBalanceBank.get());
+        }
     }
-}
+
