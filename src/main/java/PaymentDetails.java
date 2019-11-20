@@ -12,23 +12,12 @@ public class PaymentDetails {
         return fromAccountNum;
     }
 
-    public void setFromAccountNum(String fromAccountNum) {
-        this.fromAccountNum = fromAccountNum;
-    }
-
     public String getToAccountNum() {
         return toAccountNum;
-    }
-
-    public void setToAccountNum(String toAccountNum) {
-        this.toAccountNum = toAccountNum;
     }
 
     public Long getAmount() {
         return amount;
     }
 
-    public void setAmount(Long amount) {
-        this.amount = amount;
-    }
 }

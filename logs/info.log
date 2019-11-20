@@ -11704,3 +11704,882 @@
 2019-11-17 22:33:08.355 [pool-1-thread-7] INFO  Bank - 		Locked next accounts: 69 and 52
 2019-11-17 22:33:08.355 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  56 => 63 => 19079 countTransfer 996 maxCountTransfer 995
 2019-11-17 22:33:08.355 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  79 => 61 => 29865 countTransfer 993 maxCountTransfer 992
+2019-11-21 00:06:27.423 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  77 => 63 => 17449 countTransfer 3 maxCountTransfer 2
+2019-11-21 00:06:27.423 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  82 => 53 => 11281 countTransfer 1 maxCountTransfer 0
+2019-11-21 00:06:27.423 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  6 => 66 => 45671 countTransfer 4 maxCountTransfer 3
+2019-11-21 00:06:27.423 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  74 => 88 => 32109 countTransfer 2 maxCountTransfer 1
+2019-11-21 00:06:27.444 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 77 to 63; amount = 17449
+2019-11-21 00:06:27.444 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 74 to 88; amount = 32109
+2019-11-21 00:06:27.444 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 82 to 53; amount = 11281
+2019-11-21 00:06:27.444 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 6 to 66; amount = 45671
+2019-11-21 00:06:28.357 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  36 => 42 => 51908 countTransfer 5 maxCountTransfer 4
+2019-11-21 00:06:28.357 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  36 => 93 => 5836 countTransfer 6 maxCountTransfer 5
+2019-11-21 00:06:28.357 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  3 => 44 => 38497 countTransfer 7 maxCountTransfer 6
+2019-11-21 00:06:28.358 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 36 to 42; amount = 51908
+2019-11-21 00:06:28.358 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 3 to 44; amount = 38497
+2019-11-21 00:06:28.358 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 36 to 93; amount = 5836
+2019-11-21 00:06:28.358 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  44 => 75 => 20915 countTransfer 9 maxCountTransfer 8
+2019-11-21 00:06:28.359 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 44 to 75; amount = 20915
+2019-11-21 00:06:28.358 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  79 => 55 => 31090 countTransfer 10 maxCountTransfer 9
+2019-11-21 00:06:28.359 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  35 => 60 => 25684 countTransfer 12 maxCountTransfer 11
+2019-11-21 00:06:28.359 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  65 => 96 => 36306 countTransfer 11 maxCountTransfer 10
+2019-11-21 00:06:28.359 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 79 to 55; amount = 31090
+2019-11-21 00:06:28.359 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  27 => 73 => 2783 countTransfer 13 maxCountTransfer 12
+2019-11-21 00:06:28.359 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  56 => 48 => 30696 countTransfer 14 maxCountTransfer 13
+2019-11-21 00:06:28.360 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 27 to 73; amount = 2783
+2019-11-21 00:06:28.360 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  39 => 64 => 22540 countTransfer 15 maxCountTransfer 14
+2019-11-21 00:06:28.360 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  43 => 95 => 37267 countTransfer 16 maxCountTransfer 15
+2019-11-21 00:06:28.360 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 35 to 60; amount = 25684
+2019-11-21 00:06:28.360 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  43 => 41 => 32462 countTransfer 17 maxCountTransfer 16
+2019-11-21 00:06:28.361 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  53 => 63 => 34898 countTransfer 18 maxCountTransfer 17
+2019-11-21 00:06:28.358 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  7 => 79 => 38977 countTransfer 8 maxCountTransfer 7
+2019-11-21 00:06:28.360 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 56 to 48; amount = 30696
+2019-11-21 00:06:28.361 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  85 => 37 => 6479 countTransfer 19 maxCountTransfer 18
+2019-11-21 00:06:28.361 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 43 to 41; amount = 32462
+2019-11-21 00:06:28.361 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  74 => 64 => 48795 countTransfer 20 maxCountTransfer 19
+2019-11-21 00:06:28.362 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 65 to 96; amount = 36306
+2019-11-21 00:06:28.361 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  37 => 52 => 7478 countTransfer 21 maxCountTransfer 20
+2019-11-21 00:06:28.361 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 53 to 63; amount = 34898
+2019-11-21 00:06:28.362 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 39 to 64; amount = 22540
+2019-11-21 00:06:28.363 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 74 to 64; amount = 48795
+2019-11-21 00:06:28.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  34 => 91 => 34520 countTransfer 22 maxCountTransfer 21
+2019-11-21 00:06:28.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  2 => 21 => 18169 countTransfer 24 maxCountTransfer 23
+2019-11-21 00:06:28.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  77 => 75 => 36602 countTransfer 23 maxCountTransfer 22
+2019-11-21 00:06:28.363 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 34 to 91; amount = 34520
+2019-11-21 00:06:28.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  10 => 61 => 41393 countTransfer 25 maxCountTransfer 24
+2019-11-21 00:06:28.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  46 => 54 => 3188 countTransfer 26 maxCountTransfer 25
+2019-11-21 00:06:28.362 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 43 to 95; amount = 37267
+2019-11-21 00:06:28.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  79 => 82 => 36460 countTransfer 27 maxCountTransfer 26
+2019-11-21 00:06:28.362 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 7 to 79; amount = 38977
+2019-11-21 00:06:28.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 46 to 54; amount = 3188
+2019-11-21 00:06:28.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  47 => 75 => 36973 countTransfer 28 maxCountTransfer 27
+2019-11-21 00:06:28.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  70 => 31 => 7560 countTransfer 29 maxCountTransfer 28
+2019-11-21 00:06:28.364 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 47 to 75; amount = 36973
+2019-11-21 00:06:28.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  66 => 62 => 32392 countTransfer 30 maxCountTransfer 29
+2019-11-21 00:06:28.365 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 70 to 31; amount = 7560
+2019-11-21 00:06:28.365 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  99 => 24 => 15167 countTransfer 31 maxCountTransfer 30
+2019-11-21 00:06:28.365 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 37 to 52; amount = 7478
+2019-11-21 00:06:28.365 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 99 to 24; amount = 15167
+2019-11-21 00:06:28.365 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  80 => 49 => 985 countTransfer 32 maxCountTransfer 31
+2019-11-21 00:06:28.365 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  87 => 20 => 14957 countTransfer 33 maxCountTransfer 32
+2019-11-21 00:06:28.366 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 80 to 49; amount = 985
+2019-11-21 00:06:28.366 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 66 to 62; amount = 32392
+2019-11-21 00:06:28.366 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 79 to 82; amount = 36460
+2019-11-21 00:06:28.367 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 77 to 75; amount = 36602
+2019-11-21 00:06:28.367 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 2 to 21; amount = 18169
+2019-11-21 00:06:28.368 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 87 to 20; amount = 14957
+2019-11-21 00:06:28.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 10 to 61; amount = 41393
+2019-11-21 00:06:28.362 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 85 to 37; amount = 6479
+2019-11-21 00:06:29.359 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  15 => 67 => 0 countTransfer 34 maxCountTransfer 33
+2019-11-21 00:06:29.359 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  37 => 15 => 21559 countTransfer 35 maxCountTransfer 34
+2019-11-21 00:06:29.360 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 37 to 15; amount = 21559
+2019-11-21 00:06:29.365 [pool-1-thread-8] INFO  Bank - 		Locked next accounts: 15 and 67
+2019-11-21 00:06:30.360 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  28 => 3 => 50072 countTransfer 36 maxCountTransfer 35
+2019-11-21 00:06:30.360 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 28 to 3; amount = 50072
+2019-11-21 00:06:30.360 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  80 => 64 => 6446 countTransfer 37 maxCountTransfer 36
+2019-11-21 00:06:30.360 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  77 => 14 => 15114 countTransfer 38 maxCountTransfer 37
+2019-11-21 00:06:30.361 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 80 to 64; amount = 6446
+2019-11-21 00:06:30.361 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 77 to 14; amount = 15114
+2019-11-21 00:06:30.361 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  43 => 5 => 46744 countTransfer 39 maxCountTransfer 38
+2019-11-21 00:06:30.361 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  11 => 96 => 33746 countTransfer 41 maxCountTransfer 40
+2019-11-21 00:06:30.361 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 43 to 5; amount = 46744
+2019-11-21 00:06:30.361 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 11 to 96; amount = 33746
+2019-11-21 00:06:30.361 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  56 => 24 => 21266 countTransfer 40 maxCountTransfer 39
+2019-11-21 00:06:30.361 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 56 to 24; amount = 21266
+2019-11-21 00:06:31.361 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  22 => 66 => 51580 countTransfer 42 maxCountTransfer 41
+2019-11-21 00:06:31.361 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  62 => 5 => 49560 countTransfer 43 maxCountTransfer 42
+2019-11-21 00:06:31.361 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 22 to 66; amount = 51580
+2019-11-21 00:06:31.362 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  17 => 41 => 49718 countTransfer 44 maxCountTransfer 43
+2019-11-21 00:06:31.362 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 62 to 5; amount = 49560
+2019-11-21 00:06:31.362 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  37 => 44 => 18037 countTransfer 45 maxCountTransfer 44
+2019-11-21 00:06:31.362 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  21 => 70 => 46771 countTransfer 46 maxCountTransfer 45
+2019-11-21 00:06:31.362 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 17 to 41; amount = 49718
+2019-11-21 00:06:31.362 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 37 to 44; amount = 18037
+2019-11-21 00:06:31.362 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  58 => 82 => 3040 countTransfer 49 maxCountTransfer 48
+2019-11-21 00:06:31.362 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 21 to 70; amount = 46771
+2019-11-21 00:06:31.362 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  63 => 61 => 17445 countTransfer 48 maxCountTransfer 47
+2019-11-21 00:06:31.362 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 58 to 82; amount = 3040
+2019-11-21 00:06:31.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  85 => 69 => 25016 countTransfer 51 maxCountTransfer 50
+2019-11-21 00:06:31.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  43 => 42 => 45659 countTransfer 52 maxCountTransfer 51
+2019-11-21 00:06:31.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  2 => 76 => 4562 countTransfer 53 maxCountTransfer 52
+2019-11-21 00:06:31.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 43 to 42; amount = 45659
+2019-11-21 00:06:31.363 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 63 to 61; amount = 17445
+2019-11-21 00:06:31.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  92 => 24 => 37051 countTransfer 55 maxCountTransfer 54
+2019-11-21 00:06:31.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 85 to 69; amount = 25016
+2019-11-21 00:06:31.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  90 => 42 => 44286 countTransfer 57 maxCountTransfer 56
+2019-11-21 00:06:31.362 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  9 => 73 => 9516 countTransfer 47 maxCountTransfer 46
+2019-11-21 00:06:31.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 92 to 24; amount = 37051
+2019-11-21 00:06:31.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  74 => 22 => 29531 countTransfer 56 maxCountTransfer 55
+2019-11-21 00:06:31.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 90 to 42; amount = 44286
+2019-11-21 00:06:31.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  62 => 64 => 48865 countTransfer 58 maxCountTransfer 57
+2019-11-21 00:06:31.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  82 => 25 => 25650 countTransfer 54 maxCountTransfer 53
+2019-11-21 00:06:31.363 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 2 to 76; amount = 4562
+2019-11-21 00:06:31.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 9 to 73; amount = 9516
+2019-11-21 00:06:31.364 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 82 to 25; amount = 25650
+2019-11-21 00:06:31.362 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  84 => 76 => 18346 countTransfer 50 maxCountTransfer 49
+2019-11-21 00:06:31.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 74 to 22; amount = 29531
+2019-11-21 00:06:31.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 84 to 76; amount = 18346
+2019-11-21 00:06:31.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 62 to 64; amount = 48865
+2019-11-21 00:06:32.361 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  12 => 80 => 51791 countTransfer 59 maxCountTransfer 58
+2019-11-21 00:06:32.361 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  39 => 87 => 4620 countTransfer 61 maxCountTransfer 60
+2019-11-21 00:06:32.361 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  19 => 17 => 48767 countTransfer 62 maxCountTransfer 61
+2019-11-21 00:06:32.361 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  59 => 22 => 31876 countTransfer 60 maxCountTransfer 59
+2019-11-21 00:06:32.361 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 12 to 80; amount = 51791
+2019-11-21 00:06:32.361 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  60 => 38 => 29440 countTransfer 63 maxCountTransfer 62
+2019-11-21 00:06:32.361 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  28 => 32 => 4371 countTransfer 64 maxCountTransfer 63
+2019-11-21 00:06:32.361 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 19 to 17; amount = 48767
+2019-11-21 00:06:32.362 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 39 to 87; amount = 4620
+2019-11-21 00:06:32.362 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 28 to 32; amount = 4371
+2019-11-21 00:06:32.362 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 60 to 38; amount = 29440
+2019-11-21 00:06:32.362 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  62 => 41 => 5760 countTransfer 65 maxCountTransfer 64
+2019-11-21 00:06:32.362 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  48 => 37 => 6510 countTransfer 67 maxCountTransfer 66
+2019-11-21 00:06:32.362 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  99 => 80 => 20713 countTransfer 69 maxCountTransfer 68
+2019-11-21 00:06:32.362 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  15 => 69 => 22422 countTransfer 70 maxCountTransfer 69
+2019-11-21 00:06:32.362 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  10 => 14 => 24200 countTransfer 71 maxCountTransfer 70
+2019-11-21 00:06:32.362 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 99 to 80; amount = 20713
+2019-11-21 00:06:32.362 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 62 to 41; amount = 5760
+2019-11-21 00:06:32.362 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 10 to 14; amount = 24200
+2019-11-21 00:06:32.362 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  25 => 44 => 24420 countTransfer 72 maxCountTransfer 71
+2019-11-21 00:06:32.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  93 => 90 => 30600 countTransfer 73 maxCountTransfer 72
+2019-11-21 00:06:32.362 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  2 => 51 => 36362 countTransfer 66 maxCountTransfer 65
+2019-11-21 00:06:32.362 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  99 => 75 => 46598 countTransfer 68 maxCountTransfer 67
+2019-11-21 00:06:32.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  11 => 91 => 36048 countTransfer 74 maxCountTransfer 73
+2019-11-21 00:06:32.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 93 to 90; amount = 30600
+2019-11-21 00:06:32.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  46 => 38 => 6895 countTransfer 75 maxCountTransfer 74
+2019-11-21 00:06:32.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 11 to 91; amount = 36048
+2019-11-21 00:06:32.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  22 => 69 => 24919 countTransfer 76 maxCountTransfer 75
+2019-11-21 00:06:32.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 25 to 44; amount = 24420
+2019-11-21 00:06:32.363 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 2 to 51; amount = 36362
+2019-11-21 00:06:32.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  3 => 45 => 17481 countTransfer 78 maxCountTransfer 77
+2019-11-21 00:06:32.363 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 48 to 37; amount = 6510
+2019-11-21 00:06:32.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  99 => 30 => 1886 countTransfer 79 maxCountTransfer 78
+2019-11-21 00:06:32.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 3 to 45; amount = 17481
+2019-11-21 00:06:32.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 99 to 75; amount = 46598
+2019-11-21 00:06:32.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 99 to 30; amount = 1886
+2019-11-21 00:06:32.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 22 to 69; amount = 24919
+2019-11-21 00:06:32.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  9 => 28 => 8579 countTransfer 82 maxCountTransfer 81
+2019-11-21 00:06:32.362 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 59 to 22; amount = 31876
+2019-11-21 00:06:32.364 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 46 to 38; amount = 6895
+2019-11-21 00:06:32.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  80 => 43 => 4341 countTransfer 81 maxCountTransfer 80
+2019-11-21 00:06:32.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 9 to 28; amount = 8579
+2019-11-21 00:06:32.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  33 => 90 => 45410 countTransfer 80 maxCountTransfer 79
+2019-11-21 00:06:32.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 80 to 43; amount = 4341
+2019-11-21 00:06:32.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  9 => 52 => 42391 countTransfer 77 maxCountTransfer 76
+2019-11-21 00:06:32.365 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 33 to 90; amount = 45410
+2019-11-21 00:06:32.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 9 to 52; amount = 42391
+2019-11-21 00:06:33.361 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  18 => 30 => 48822 countTransfer 84 maxCountTransfer 83
+2019-11-21 00:06:33.361 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  28 => 55 => 0 countTransfer 83 maxCountTransfer 82
+2019-11-21 00:06:33.361 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  16 => 33 => 35811 countTransfer 85 maxCountTransfer 84
+2019-11-21 00:06:33.361 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 18 to 30; amount = 48822
+2019-11-21 00:06:33.361 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  1 => 33 => 44545 countTransfer 86 maxCountTransfer 85
+2019-11-21 00:06:33.362 [pool-1-thread-6] INFO  Bank - 		Locked next accounts: 28 and 55
+2019-11-21 00:06:33.362 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 16 to 33; amount = 35811
+2019-11-21 00:06:33.362 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  66 => 12 => 2101 countTransfer 88 maxCountTransfer 87
+2019-11-21 00:06:33.362 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  92 => 97 => 7820 countTransfer 89 maxCountTransfer 88
+2019-11-21 00:06:33.362 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 66 to 12; amount = 2101
+2019-11-21 00:06:33.362 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 1 to 33; amount = 44545
+2019-11-21 00:06:33.362 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  80 => 93 => 12729 countTransfer 90 maxCountTransfer 89
+2019-11-21 00:06:33.362 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  10 => 42 => 3682 countTransfer 91 maxCountTransfer 90
+2019-11-21 00:06:33.362 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 92 to 97; amount = 7820
+2019-11-21 00:06:33.362 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  10 => 98 => 33654 countTransfer 93 maxCountTransfer 92
+2019-11-21 00:06:33.362 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  36 => 60 => 18123 countTransfer 92 maxCountTransfer 91
+2019-11-21 00:06:33.362 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 10 to 98; amount = 33654
+2019-11-21 00:06:33.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  83 => 69 => 13547 countTransfer 94 maxCountTransfer 93
+2019-11-21 00:06:33.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 36 to 60; amount = 18123
+2019-11-21 00:06:33.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 83 to 69; amount = 13547
+2019-11-21 00:06:33.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  9 => 12 => 28367 countTransfer 95 maxCountTransfer 94
+2019-11-21 00:06:33.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  25 => 33 => 4905 countTransfer 98 maxCountTransfer 97
+2019-11-21 00:06:33.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  72 => 82 => 10100 countTransfer 97 maxCountTransfer 96
+2019-11-21 00:06:33.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  24 => 54 => 37239 countTransfer 99 maxCountTransfer 98
+2019-11-21 00:06:33.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  40 => 60 => 6 countTransfer 96 maxCountTransfer 95
+2019-11-21 00:06:33.363 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 9 to 12; amount = 28367
+2019-11-21 00:06:33.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 24 to 54; amount = 37239
+2019-11-21 00:06:33.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  70 => 60 => 34649 countTransfer 100 maxCountTransfer 99
+2019-11-21 00:06:33.362 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  17 => 15 => 25104 countTransfer 87 maxCountTransfer 86
+2019-11-21 00:06:33.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  83 => 9 => 24392 countTransfer 101 maxCountTransfer 100
+2019-11-21 00:06:33.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 40 to 60; amount = 6
+2019-11-21 00:06:33.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 72 to 82; amount = 10100
+2019-11-21 00:06:33.362 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 10 to 42; amount = 3682
+2019-11-21 00:06:33.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  11 => 7 => 49761 countTransfer 104 maxCountTransfer 103
+2019-11-21 00:06:33.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 80 to 93; amount = 12729
+2019-11-21 00:06:33.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  36 => 48 => 19771 countTransfer 105 maxCountTransfer 104
+2019-11-21 00:06:33.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 36 to 48; amount = 19771
+2019-11-21 00:06:33.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  44 => 49 => 18285 countTransfer 107 maxCountTransfer 106
+2019-11-21 00:06:33.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  27 => 8 => 4754 countTransfer 102 maxCountTransfer 101
+2019-11-21 00:06:33.365 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 44 to 49; amount = 18285
+2019-11-21 00:06:33.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 11 to 7; amount = 49761
+2019-11-21 00:06:33.365 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  90 => 32 => 650 countTransfer 108 maxCountTransfer 107
+2019-11-21 00:06:33.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  10 => 45 => 13657 countTransfer 109 maxCountTransfer 108
+2019-11-21 00:06:33.365 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 90 to 32; amount = 650
+2019-11-21 00:06:33.365 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  93 => 46 => 1902 countTransfer 110 maxCountTransfer 109
+2019-11-21 00:06:33.365 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 25 to 33; amount = 4905
+2019-11-21 00:06:33.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 10 to 45; amount = 13657
+2019-11-21 00:06:33.365 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  14 => 32 => 40915 countTransfer 111 maxCountTransfer 110
+2019-11-21 00:06:33.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  50 => 95 => 24543 countTransfer 112 maxCountTransfer 111
+2019-11-21 00:06:33.366 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 14 to 32; amount = 40915
+2019-11-21 00:06:33.366 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  53 => 62 => 1770 countTransfer 113 maxCountTransfer 112
+2019-11-21 00:06:33.366 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 50 to 95; amount = 24543
+2019-11-21 00:06:33.366 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  22 => 49 => 26469 countTransfer 114 maxCountTransfer 113
+2019-11-21 00:06:33.366 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 93 to 46; amount = 1902
+2019-11-21 00:06:33.366 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 22 to 49; amount = 26469
+2019-11-21 00:06:33.366 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  16 => 90 => 18669 countTransfer 115 maxCountTransfer 114
+2019-11-21 00:06:33.366 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  25 => 90 => 26266 countTransfer 116 maxCountTransfer 115
+2019-11-21 00:06:33.367 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 16 to 90; amount = 18669
+2019-11-21 00:06:33.367 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  61 => 29 => 39232 countTransfer 117 maxCountTransfer 116
+2019-11-21 00:06:33.367 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 61 to 29; amount = 39232
+2019-11-21 00:06:33.367 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  29 => 63 => 11929 countTransfer 118 maxCountTransfer 117
+2019-11-21 00:06:33.367 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 27 to 8; amount = 4754
+2019-11-21 00:06:33.367 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  4 => 46 => 9320 countTransfer 119 maxCountTransfer 118
+2019-11-21 00:06:33.368 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 4 to 46; amount = 9320
+2019-11-21 00:06:33.368 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  20 => 46 => 39705 countTransfer 120 maxCountTransfer 119
+2019-11-21 00:06:33.368 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 20 to 46; amount = 39705
+2019-11-21 00:06:33.368 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 70 to 60; amount = 34649
+2019-11-21 00:06:33.368 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  32 => 9 => 35587 countTransfer 121 maxCountTransfer 120
+2019-11-21 00:06:33.368 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  70 => 61 => 36153 countTransfer 122 maxCountTransfer 121
+2019-11-21 00:06:33.368 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 32 to 9; amount = 35587
+2019-11-21 00:06:33.368 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  84 => 94 => 38411 countTransfer 123 maxCountTransfer 122
+2019-11-21 00:06:33.368 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 70 to 61; amount = 36153
+2019-11-21 00:06:33.369 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  25 => 17 => 9553 countTransfer 124 maxCountTransfer 123
+2019-11-21 00:06:33.369 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 29 to 63; amount = 11929
+2019-11-21 00:06:33.369 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  76 => 41 => 44889 countTransfer 125 maxCountTransfer 124
+2019-11-21 00:06:33.369 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 25 to 90; amount = 26266
+2019-11-21 00:06:33.369 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 76 to 41; amount = 44889
+2019-11-21 00:06:33.369 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  3 => 34 => 24532 countTransfer 126 maxCountTransfer 125
+2019-11-21 00:06:33.369 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  26 => 85 => 33174 countTransfer 127 maxCountTransfer 126
+2019-11-21 00:06:33.369 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 3 to 34; amount = 24532
+2019-11-21 00:06:33.369 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  38 => 79 => 37527 countTransfer 128 maxCountTransfer 127
+2019-11-21 00:06:33.370 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 38 to 79; amount = 37527
+2019-11-21 00:06:33.370 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  67 => 23 => 49511 countTransfer 129 maxCountTransfer 128
+2019-11-21 00:06:33.370 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  40 => 49 => 314 countTransfer 130 maxCountTransfer 129
+2019-11-21 00:06:33.370 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 40 to 49; amount = 314
+2019-11-21 00:06:33.371 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  58 => 71 => 29166 countTransfer 131 maxCountTransfer 130
+2019-11-21 00:06:33.371 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 58 to 71; amount = 29166
+2019-11-21 00:06:33.371 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  67 => 21 => 11377 countTransfer 132 maxCountTransfer 131
+2019-11-21 00:06:33.371 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  71 => 2 => 27115 countTransfer 133 maxCountTransfer 132
+2019-11-21 00:06:33.371 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 71 to 2; amount = 27115
+2019-11-21 00:06:33.371 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  15 => 27 => 48522 countTransfer 134 maxCountTransfer 133
+2019-11-21 00:06:33.372 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  74 => 1 => 27214 countTransfer 135 maxCountTransfer 134
+2019-11-21 00:06:33.372 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 74 to 1; amount = 27214
+2019-11-21 00:06:33.372 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  63 => 11 => 13753 countTransfer 136 maxCountTransfer 135
+2019-11-21 00:06:33.372 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 63 to 11; amount = 13753
+2019-11-21 00:06:33.372 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  5 => 16 => 19255 countTransfer 137 maxCountTransfer 136
+2019-11-21 00:06:33.372 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 5 to 16; amount = 19255
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  75 => 93 => 49364 countTransfer 138 maxCountTransfer 137
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 75 to 93; amount = 49364
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  37 => 55 => 27116 countTransfer 139 maxCountTransfer 138
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  75 => 7 => 36195 countTransfer 140 maxCountTransfer 139
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 75 to 7; amount = 36195
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  37 => 50 => 2444 countTransfer 141 maxCountTransfer 140
+2019-11-21 00:06:33.373 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 37 to 50; amount = 2444
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  35 => 86 => 35696 countTransfer 142 maxCountTransfer 141
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 35 to 86; amount = 35696
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  36 => 41 => 14118 countTransfer 143 maxCountTransfer 142
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 36 to 41; amount = 14118
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  32 => 62 => 26317 countTransfer 144 maxCountTransfer 143
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 32 to 62; amount = 26317
+2019-11-21 00:06:33.374 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  29 => 78 => 48131 countTransfer 145 maxCountTransfer 144
+2019-11-21 00:06:33.375 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 29 to 78; amount = 48131
+2019-11-21 00:06:33.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  90 => 75 => 11824 countTransfer 106 maxCountTransfer 105
+2019-11-21 00:06:33.375 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  1 => 49 => 34700 countTransfer 146 maxCountTransfer 145
+2019-11-21 00:06:33.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  23 => 92 => 19982 countTransfer 103 maxCountTransfer 102
+2019-11-21 00:06:33.375 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 90 to 75; amount = 11824
+2019-11-21 00:06:33.375 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 23 to 92; amount = 19982
+2019-11-21 00:06:33.375 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  25 => 40 => 49608 countTransfer 147 maxCountTransfer 146
+2019-11-21 00:06:33.375 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  65 => 45 => 43518 countTransfer 148 maxCountTransfer 147
+2019-11-21 00:06:33.367 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 83 to 9; amount = 24392
+2019-11-21 00:06:33.375 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 25 to 40; amount = 49608
+2019-11-21 00:06:33.375 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  77 => 52 => 16927 countTransfer 149 maxCountTransfer 148
+2019-11-21 00:06:33.375 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  66 => 76 => 11706 countTransfer 150 maxCountTransfer 149
+2019-11-21 00:06:33.375 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 53 to 62; amount = 1770
+2019-11-21 00:06:33.375 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 77 to 52; amount = 16927
+2019-11-21 00:06:33.375 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  98 => 55 => 28606 countTransfer 151 maxCountTransfer 150
+2019-11-21 00:06:33.376 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  99 => 50 => 34623 countTransfer 153 maxCountTransfer 152
+2019-11-21 00:06:33.376 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 65 to 45; amount = 43518
+2019-11-21 00:06:33.376 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 99 to 50; amount = 34623
+2019-11-21 00:06:33.376 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  81 => 26 => 48731 countTransfer 154 maxCountTransfer 153
+2019-11-21 00:06:33.376 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  74 => 43 => 28589 countTransfer 155 maxCountTransfer 154
+2019-11-21 00:06:33.376 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 81 to 26; amount = 48731
+2019-11-21 00:06:33.376 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 74 to 43; amount = 28589
+2019-11-21 00:06:33.376 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  43 => 11 => 38587 countTransfer 156 maxCountTransfer 155
+2019-11-21 00:06:33.376 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  70 => 17 => 47972 countTransfer 157 maxCountTransfer 156
+2019-11-21 00:06:33.376 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 43 to 11; amount = 38587
+2019-11-21 00:06:33.376 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  38 => 25 => 32135 countTransfer 158 maxCountTransfer 157
+2019-11-21 00:06:33.376 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  16 => 67 => 20424 countTransfer 152 maxCountTransfer 151
+2019-11-21 00:06:33.377 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 70 to 17; amount = 47972
+2019-11-21 00:06:33.377 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 1 to 49; amount = 34700
+2019-11-21 00:06:33.377 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  29 => 87 => 41924 countTransfer 159 maxCountTransfer 158
+2019-11-21 00:06:33.377 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  4 => 70 => 12893 countTransfer 160 maxCountTransfer 159
+2019-11-21 00:06:33.377 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 29 to 87; amount = 41924
+2019-11-21 00:06:33.377 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 4 to 70; amount = 12893
+2019-11-21 00:06:33.375 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 66 to 76; amount = 11706
+2019-11-21 00:06:33.377 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  61 => 36 => 27505 countTransfer 162 maxCountTransfer 161
+2019-11-21 00:06:33.377 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 26 to 85; amount = 33174
+2019-11-21 00:06:33.377 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  18 => 32 => 49544 countTransfer 164 maxCountTransfer 163
+2019-11-21 00:06:33.377 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  53 => 72 => 12681 countTransfer 163 maxCountTransfer 162
+2019-11-21 00:06:33.377 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  67 => 17 => 22000 countTransfer 161 maxCountTransfer 160
+2019-11-21 00:06:33.377 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 25 to 17; amount = 9553
+2019-11-21 00:06:33.378 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 53 to 72; amount = 12681
+2019-11-21 00:06:33.378 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  65 => 4 => 47576 countTransfer 165 maxCountTransfer 164
+2019-11-21 00:06:33.377 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 61 to 36; amount = 27505
+2019-11-21 00:06:33.378 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  70 => 87 => 35766 countTransfer 166 maxCountTransfer 165
+2019-11-21 00:06:33.378 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 84 to 94; amount = 38411
+2019-11-21 00:06:33.378 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  13 => 53 => 37420 countTransfer 168 maxCountTransfer 167
+2019-11-21 00:06:33.378 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  59 => 47 => 28351 countTransfer 169 maxCountTransfer 168
+2019-11-21 00:06:33.379 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 59 to 47; amount = 28351
+2019-11-21 00:06:33.378 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 70 to 87; amount = 35766
+2019-11-21 00:06:33.378 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 18 to 32; amount = 49544
+2019-11-21 00:06:33.379 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  88 => 71 => 27296 countTransfer 170 maxCountTransfer 169
+2019-11-21 00:06:33.379 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  18 => 81 => 3438 countTransfer 171 maxCountTransfer 170
+2019-11-21 00:06:33.379 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 88 to 71; amount = 27296
+2019-11-21 00:06:33.379 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  9 => 56 => 32145 countTransfer 172 maxCountTransfer 171
+2019-11-21 00:06:33.379 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  55 => 52 => 4691 countTransfer 173 maxCountTransfer 172
+2019-11-21 00:06:33.379 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  65 => 47 => 10760 countTransfer 174 maxCountTransfer 173
+2019-11-21 00:06:33.379 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 65 to 47; amount = 10760
+2019-11-21 00:06:33.379 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  57 => 41 => 35466 countTransfer 175 maxCountTransfer 174
+2019-11-21 00:06:33.379 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 38 to 25; amount = 32135
+2019-11-21 00:06:33.380 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 13 to 53; amount = 37420
+2019-11-21 00:06:33.380 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  88 => 40 => 36175 countTransfer 176 maxCountTransfer 175
+2019-11-21 00:06:33.380 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  24 => 9 => 39162 countTransfer 177 maxCountTransfer 176
+2019-11-21 00:06:33.380 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 88 to 40; amount = 36175
+2019-11-21 00:06:33.380 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  56 => 11 => 30239 countTransfer 178 maxCountTransfer 177
+2019-11-21 00:06:33.378 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  93 => 15 => 7896 countTransfer 167 maxCountTransfer 166
+2019-11-21 00:06:33.380 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 56 to 11; amount = 30239
+2019-11-21 00:06:33.381 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  43 => 16 => 15113 countTransfer 179 maxCountTransfer 178
+2019-11-21 00:06:33.381 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 43 to 16; amount = 15113
+2019-11-21 00:06:33.381 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  41 => 32 => 31782 countTransfer 180 maxCountTransfer 179
+2019-11-21 00:06:33.381 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  63 => 59 => 28232 countTransfer 181 maxCountTransfer 180
+2019-11-21 00:06:33.381 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 41 to 32; amount = 31782
+2019-11-21 00:06:33.381 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  28 => 87 => 23211 countTransfer 182 maxCountTransfer 181
+2019-11-21 00:06:33.379 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 9 to 56; amount = 32145
+2019-11-21 00:06:33.382 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  67 => 65 => 46456 countTransfer 183 maxCountTransfer 182
+2019-11-21 00:06:33.382 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 63 to 59; amount = 28232
+2019-11-21 00:06:33.382 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  39 => 56 => 6895 countTransfer 184 maxCountTransfer 183
+2019-11-21 00:06:33.382 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  40 => 95 => 33315 countTransfer 185 maxCountTransfer 184
+2019-11-21 00:06:33.379 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 18 to 81; amount = 3438
+2019-11-21 00:06:33.382 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  91 => 33 => 17870 countTransfer 186 maxCountTransfer 185
+2019-11-21 00:06:33.383 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 91 to 33; amount = 17870
+2019-11-21 00:06:33.383 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  41 => 7 => 26003 countTransfer 187 maxCountTransfer 186
+2019-11-21 00:06:33.383 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 41 to 7; amount = 26003
+2019-11-21 00:06:33.383 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  78 => 71 => 11366 countTransfer 188 maxCountTransfer 187
+2019-11-21 00:06:33.383 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 78 to 71; amount = 11366
+2019-11-21 00:06:33.384 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  53 => 95 => 25981 countTransfer 189 maxCountTransfer 188
+2019-11-21 00:06:33.384 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  5 => 22 => 1318 countTransfer 190 maxCountTransfer 189
+2019-11-21 00:06:33.384 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 53 to 95; amount = 25981
+2019-11-21 00:06:33.382 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 39 to 56; amount = 6895
+2019-11-21 00:06:33.387 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 65 to 4; amount = 47576
+2019-11-21 00:06:33.387 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 5 to 22; amount = 1318
+2019-11-21 00:06:33.387 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 40 to 95; amount = 33315
+2019-11-21 00:06:33.387 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 24 to 9; amount = 39162
+2019-11-21 00:06:33.387 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 57 to 41; amount = 35466
+2019-11-21 00:06:34.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  36 => 76 => 0 countTransfer 191 maxCountTransfer 190
+2019-11-21 00:06:34.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  90 => 9 => 20159 countTransfer 194 maxCountTransfer 193
+2019-11-21 00:06:34.363 [pool-1-thread-6] INFO  Bank - 		Locked next accounts: 36 and 76
+2019-11-21 00:06:34.363 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  71 => 81 => 37152 countTransfer 193 maxCountTransfer 192
+2019-11-21 00:06:34.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 90 to 9; amount = 20159
+2019-11-21 00:06:34.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  24 => 39 => 13374 countTransfer 192 maxCountTransfer 191
+2019-11-21 00:06:34.363 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 71 to 81; amount = 37152
+2019-11-21 00:06:34.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 24 to 39; amount = 13374
+2019-11-21 00:06:35.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  37 => 30 => 32350 countTransfer 195 maxCountTransfer 194
+2019-11-21 00:06:35.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 37 to 30; amount = 32350
+2019-11-21 00:06:35.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  56 => 45 => 0 countTransfer 196 maxCountTransfer 195
+2019-11-21 00:06:35.363 [pool-1-thread-1] INFO  Bank - 		Locked next accounts: 56 and 45
+2019-11-21 00:06:36.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  58 => 29 => 53393 countTransfer 197 maxCountTransfer 196
+2019-11-21 00:06:36.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  99 => 70 => 7120 countTransfer 198 maxCountTransfer 197
+2019-11-21 00:06:36.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  50 => 46 => 41516 countTransfer 199 maxCountTransfer 198
+2019-11-21 00:06:36.363 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 50 to 46; amount = 41516
+2019-11-21 00:06:36.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 58 to 29; amount = 53393
+2019-11-21 00:06:36.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  90 => 47 => 11023 countTransfer 200 maxCountTransfer 199
+2019-11-21 00:06:36.363 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 90 to 47; amount = 11023
+2019-11-21 00:06:36.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 99 to 70; amount = 7120
+2019-11-21 00:06:36.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  74 => 93 => 26391 countTransfer 202 maxCountTransfer 201
+2019-11-21 00:06:36.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  49 => 56 => 46169 countTransfer 203 maxCountTransfer 202
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 74 to 93; amount = 26391
+2019-11-21 00:06:36.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  67 => 16 => 4918 countTransfer 204 maxCountTransfer 203
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  54 => 1 => 51 countTransfer 205 maxCountTransfer 204
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 54 to 1; amount = 51
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  16 => 8 => 36543 countTransfer 206 maxCountTransfer 205
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 16 to 8; amount = 36543
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  95 => 25 => 6193 countTransfer 207 maxCountTransfer 206
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 95 to 25; amount = 6193
+2019-11-21 00:06:36.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  23 => 95 => 2896 countTransfer 208 maxCountTransfer 207
+2019-11-21 00:06:36.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 23 to 95; amount = 2896
+2019-11-21 00:06:36.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  81 => 1 => 28007 countTransfer 209 maxCountTransfer 208
+2019-11-21 00:06:36.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 81 to 1; amount = 28007
+2019-11-21 00:06:36.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  18 => 36 => 42991 countTransfer 210 maxCountTransfer 209
+2019-11-21 00:06:36.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  5 => 70 => 49955 countTransfer 201 maxCountTransfer 200
+2019-11-21 00:06:36.365 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 5 to 70; amount = 49955
+2019-11-21 00:06:36.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  66 => 63 => 23944 countTransfer 211 maxCountTransfer 210
+2019-11-21 00:06:36.366 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 66 to 63; amount = 23944
+2019-11-21 00:06:37.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  63 => 61 => 45281 countTransfer 213 maxCountTransfer 212
+2019-11-21 00:06:37.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  4 => 30 => 0 countTransfer 212 maxCountTransfer 211
+2019-11-21 00:06:37.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 63 to 61; amount = 45281
+2019-11-21 00:06:37.363 [pool-1-thread-2] INFO  Bank - 		Locked next accounts: 4 and 30
+2019-11-21 00:06:38.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  21 => 22 => 52216 countTransfer 214 maxCountTransfer 213
+2019-11-21 00:06:38.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 21 to 22; amount = 52216
+2019-11-21 00:06:38.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  56 => 50 => 18075 countTransfer 217 maxCountTransfer 216
+2019-11-21 00:06:38.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  67 => 90 => 47135 countTransfer 218 maxCountTransfer 217
+2019-11-21 00:06:38.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  91 => 83 => 13196 countTransfer 219 maxCountTransfer 218
+2019-11-21 00:06:38.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 91 to 83; amount = 13196
+2019-11-21 00:06:38.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  18 => 91 => 16651 countTransfer 220 maxCountTransfer 219
+2019-11-21 00:06:38.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  56 => 17 => 10357 countTransfer 216 maxCountTransfer 215
+2019-11-21 00:06:38.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 18 to 91; amount = 16651
+2019-11-21 00:06:38.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  42 => 90 => 28179 countTransfer 221 maxCountTransfer 220
+2019-11-21 00:06:38.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  28 => 67 => 32282 countTransfer 222 maxCountTransfer 221
+2019-11-21 00:06:38.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  55 => 87 => 35029 countTransfer 223 maxCountTransfer 222
+2019-11-21 00:06:38.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 42 to 90; amount = 28179
+2019-11-21 00:06:38.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  54 => 29 => 16284 countTransfer 224 maxCountTransfer 223
+2019-11-21 00:06:38.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 54 to 29; amount = 16284
+2019-11-21 00:06:38.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  99 => 14 => 49979 countTransfer 225 maxCountTransfer 224
+2019-11-21 00:06:38.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  64 => 76 => 38756 countTransfer 226 maxCountTransfer 225
+2019-11-21 00:06:38.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 99 to 14; amount = 49979
+2019-11-21 00:06:38.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  15 => 21 => 19815 countTransfer 227 maxCountTransfer 226
+2019-11-21 00:06:38.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  29 => 93 => 7011 countTransfer 228 maxCountTransfer 227
+2019-11-21 00:06:38.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 29 to 93; amount = 7011
+2019-11-21 00:06:38.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  77 => 17 => 16052 countTransfer 229 maxCountTransfer 228
+2019-11-21 00:06:38.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 77 to 17; amount = 16052
+2019-11-21 00:06:38.363 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  61 => 59 => 23948 countTransfer 215 maxCountTransfer 214
+2019-11-21 00:06:38.366 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 61 to 59; amount = 23948
+2019-11-21 00:06:39.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  59 => 96 => 0 countTransfer 230 maxCountTransfer 229
+2019-11-21 00:06:39.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  70 => 74 => 47426 countTransfer 231 maxCountTransfer 230
+2019-11-21 00:06:39.363 [pool-1-thread-3] INFO  Bank - 		Locked next accounts: 59 and 96
+2019-11-21 00:06:39.363 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 70 to 74; amount = 47426
+2019-11-21 00:06:40.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  49 => 79 => 16596 countTransfer 233 maxCountTransfer 232
+2019-11-21 00:06:40.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  48 => 47 => 4062 countTransfer 235 maxCountTransfer 234
+2019-11-21 00:06:40.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  59 => 2 => 45024 countTransfer 236 maxCountTransfer 235
+2019-11-21 00:06:40.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  24 => 43 => 22282 countTransfer 234 maxCountTransfer 233
+2019-11-21 00:06:40.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  77 => 64 => 0 countTransfer 232 maxCountTransfer 231
+2019-11-21 00:06:40.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  56 => 15 => 14356 countTransfer 239 maxCountTransfer 238
+2019-11-21 00:06:40.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  29 => 3 => 45108 countTransfer 238 maxCountTransfer 237
+2019-11-21 00:06:40.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  67 => 84 => 11702 countTransfer 240 maxCountTransfer 239
+2019-11-21 00:06:40.363 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 49 to 79; amount = 16596
+2019-11-21 00:06:40.363 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  35 => 45 => 24027 countTransfer 237 maxCountTransfer 236
+2019-11-21 00:06:40.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 48 to 47; amount = 4062
+2019-11-21 00:06:40.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 29 to 3; amount = 45108
+2019-11-21 00:06:40.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  82 => 9 => 3448 countTransfer 241 maxCountTransfer 240
+2019-11-21 00:06:40.363 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  46 => 21 => 38206 countTransfer 242 maxCountTransfer 241
+2019-11-21 00:06:40.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  21 => 94 => 23542 countTransfer 244 maxCountTransfer 243
+2019-11-21 00:06:40.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  14 => 71 => 8799 countTransfer 243 maxCountTransfer 242
+2019-11-21 00:06:40.363 [pool-1-thread-4] INFO  Bank - 		Locked next accounts: 77 and 64
+2019-11-21 00:06:40.363 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 24 to 43; amount = 22282
+2019-11-21 00:06:40.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 14 to 71; amount = 8799
+2019-11-21 00:06:40.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  42 => 8 => 675 countTransfer 246 maxCountTransfer 245
+2019-11-21 00:06:40.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  87 => 45 => 42337 countTransfer 245 maxCountTransfer 244
+2019-11-21 00:06:40.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  95 => 79 => 6485 countTransfer 247 maxCountTransfer 246
+2019-11-21 00:06:40.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 42 to 8; amount = 675
+2019-11-21 00:06:40.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  38 => 6 => 3749 countTransfer 249 maxCountTransfer 248
+2019-11-21 00:06:40.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  62 => 72 => 48343 countTransfer 250 maxCountTransfer 249
+2019-11-21 00:06:40.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 21 to 94; amount = 23542
+2019-11-21 00:06:40.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  31 => 83 => 43452 countTransfer 248 maxCountTransfer 247
+2019-11-21 00:06:40.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 46 to 21; amount = 38206
+2019-11-21 00:06:40.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 62 to 72; amount = 48343
+2019-11-21 00:06:40.364 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 82 to 9; amount = 3448
+2019-11-21 00:06:40.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 38 to 6; amount = 3749
+2019-11-21 00:06:40.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 95 to 79; amount = 6485
+2019-11-21 00:06:40.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 31 to 83; amount = 43452
+2019-11-21 00:06:41.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  37 => 42 => 0 countTransfer 251 maxCountTransfer 250
+2019-11-21 00:06:41.363 [pool-1-thread-6] INFO  Bank - 		Locked next accounts: 37 and 42
+2019-11-21 00:06:41.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  94 => 93 => 43455 countTransfer 252 maxCountTransfer 251
+2019-11-21 00:06:41.363 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 94 to 93; amount = 43455
+2019-11-21 00:06:41.363 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  47 => 53 => 1529 countTransfer 253 maxCountTransfer 252
+2019-11-21 00:06:41.363 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 47 to 53; amount = 1529
+2019-11-21 00:06:42.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  27 => 81 => 54906 countTransfer 254 maxCountTransfer 253
+2019-11-21 00:06:42.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 27 to 81; amount = 54906
+2019-11-21 00:06:43.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  15 => 60 => 41467 countTransfer 255 maxCountTransfer 254
+2019-11-21 00:06:43.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  44 => 26 => 3529 countTransfer 256 maxCountTransfer 255
+2019-11-21 00:06:43.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 44 to 26; amount = 3529
+2019-11-21 00:06:43.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  27 => 68 => 42358 countTransfer 257 maxCountTransfer 256
+2019-11-21 00:06:43.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 27 to 68; amount = 42358
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  55 => 51 => 28059 countTransfer 258 maxCountTransfer 257
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  24 => 44 => 2093 countTransfer 259 maxCountTransfer 258
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 24 to 44; amount = 2093
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  71 => 8 => 34607 countTransfer 260 maxCountTransfer 259
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 71 to 8; amount = 34607
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  22 => 74 => 48631 countTransfer 261 maxCountTransfer 260
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 22 to 74; amount = 48631
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  88 => 13 => 15954 countTransfer 262 maxCountTransfer 261
+2019-11-21 00:06:43.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  7 => 14 => 0 countTransfer 263 maxCountTransfer 262
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 88 to 13; amount = 15954
+2019-11-21 00:06:43.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  79 => 7 => 44543 countTransfer 264 maxCountTransfer 263
+2019-11-21 00:06:43.365 [pool-1-thread-7] INFO  Bank - 		Locked next accounts: 7 and 14
+2019-11-21 00:06:43.365 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  4 => 60 => 5229 countTransfer 265 maxCountTransfer 264
+2019-11-21 00:06:43.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  31 => 66 => 31933 countTransfer 266 maxCountTransfer 265
+2019-11-21 00:06:43.365 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  9 => 4 => 45419 countTransfer 267 maxCountTransfer 266
+2019-11-21 00:06:43.365 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  37 => 43 => 14081 countTransfer 268 maxCountTransfer 267
+2019-11-21 00:06:43.365 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  14 => 96 => 33855 countTransfer 269 maxCountTransfer 268
+2019-11-21 00:06:43.365 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  3 => 96 => 14945 countTransfer 270 maxCountTransfer 269
+2019-11-21 00:06:43.365 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  30 => 53 => 31118 countTransfer 272 maxCountTransfer 271
+2019-11-21 00:06:43.365 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  57 => 92 => 11884 countTransfer 273 maxCountTransfer 272
+2019-11-21 00:06:43.365 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  4 => 7 => 33132 countTransfer 271 maxCountTransfer 270
+2019-11-21 00:06:43.365 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 57 to 92; amount = 11884
+2019-11-21 00:06:43.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 31 to 66; amount = 31933
+2019-11-21 00:06:44.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  71 => 1 => 38221 countTransfer 275 maxCountTransfer 274
+2019-11-21 00:06:44.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  73 => 22 => 14435 countTransfer 276 maxCountTransfer 275
+2019-11-21 00:06:44.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  71 => 45 => 0 countTransfer 274 maxCountTransfer 273
+2019-11-21 00:06:44.363 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 71 to 1; amount = 38221
+2019-11-21 00:06:44.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  20 => 25 => 7785 countTransfer 281 maxCountTransfer 280
+2019-11-21 00:06:44.363 [pool-1-thread-5] INFO  Bank - 		Locked next accounts: 71 and 45
+2019-11-21 00:06:44.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  13 => 78 => 45228 countTransfer 278 maxCountTransfer 277
+2019-11-21 00:06:44.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  64 => 52 => 4288 countTransfer 279 maxCountTransfer 278
+2019-11-21 00:06:44.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  58 => 37 => 16670 countTransfer 283 maxCountTransfer 282
+2019-11-21 00:06:44.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  58 => 48 => 21769 countTransfer 280 maxCountTransfer 279
+2019-11-21 00:06:44.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  66 => 29 => 42441 countTransfer 284 maxCountTransfer 283
+2019-11-21 00:06:44.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  32 => 43 => 32410 countTransfer 282 maxCountTransfer 281
+2019-11-21 00:06:44.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 66 to 29; amount = 42441
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 20 to 25; amount = 7785
+2019-11-21 00:06:44.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 73 to 22; amount = 14435
+2019-11-21 00:06:44.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  48 => 99 => 20947 countTransfer 285 maxCountTransfer 284
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  25 => 3 => 31932 countTransfer 286 maxCountTransfer 285
+2019-11-21 00:06:44.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  53 => 19 => 27035 countTransfer 287 maxCountTransfer 286
+2019-11-21 00:06:44.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 48 to 99; amount = 20947
+2019-11-21 00:06:44.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 13 to 78; amount = 45228
+2019-11-21 00:06:44.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 53 to 19; amount = 27035
+2019-11-21 00:06:44.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  98 => 86 => 42533 countTransfer 288 maxCountTransfer 287
+2019-11-21 00:06:44.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  63 => 9 => 40231 countTransfer 289 maxCountTransfer 288
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 25 to 3; amount = 31932
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  34 => 95 => 4142 countTransfer 290 maxCountTransfer 289
+2019-11-21 00:06:44.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 98 to 86; amount = 42533
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 34 to 95; amount = 4142
+2019-11-21 00:06:44.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  92 => 99 => 15942 countTransfer 291 maxCountTransfer 290
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  32 => 77 => 23584 countTransfer 292 maxCountTransfer 291
+2019-11-21 00:06:44.364 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 92 to 99; amount = 15942
+2019-11-21 00:06:44.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  44 => 7 => 43856 countTransfer 277 maxCountTransfer 276
+2019-11-21 00:06:44.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  2 => 49 => 33122 countTransfer 293 maxCountTransfer 292
+2019-11-21 00:06:44.365 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  67 => 75 => 20131 countTransfer 294 maxCountTransfer 293
+2019-11-21 00:06:44.365 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 2 to 49; amount = 33122
+2019-11-21 00:06:44.365 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  21 => 97 => 10714 countTransfer 296 maxCountTransfer 295
+2019-11-21 00:06:44.365 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  15 => 87 => 33276 countTransfer 295 maxCountTransfer 294
+2019-11-21 00:06:44.365 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 21 to 97; amount = 10714
+2019-11-21 00:06:44.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 63 to 9; amount = 40231
+2019-11-21 00:06:44.364 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 32 to 43; amount = 32410
+2019-11-21 00:06:44.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 58 to 48; amount = 21769
+2019-11-21 00:06:44.365 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  94 => 30 => 25772 countTransfer 297 maxCountTransfer 296
+2019-11-21 00:06:45.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  69 => 33 => 17884 countTransfer 303 maxCountTransfer 302
+2019-11-21 00:06:45.363 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  26 => 41 => 31544 countTransfer 299 maxCountTransfer 298
+2019-11-21 00:06:45.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  79 => 62 => 3584 countTransfer 304 maxCountTransfer 303
+2019-11-21 00:06:45.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  72 => 59 => 0 countTransfer 298 maxCountTransfer 297
+2019-11-21 00:06:45.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  38 => 45 => 25581 countTransfer 300 maxCountTransfer 299
+2019-11-21 00:06:45.363 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  57 => 12 => 8135 countTransfer 301 maxCountTransfer 300
+2019-11-21 00:06:45.363 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 69 to 33; amount = 17884
+2019-11-21 00:06:45.363 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 79 to 62; amount = 3584
+2019-11-21 00:06:45.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  42 => 46 => 18052 countTransfer 305 maxCountTransfer 304
+2019-11-21 00:06:45.363 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  63 => 49 => 37241 countTransfer 307 maxCountTransfer 306
+2019-11-21 00:06:45.363 [pool-1-thread-5] INFO  Bank - 		Locked next accounts: 72 and 59
+2019-11-21 00:06:45.363 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  68 => 92 => 43536 countTransfer 302 maxCountTransfer 301
+2019-11-21 00:06:45.363 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 63 to 49; amount = 37241
+2019-11-21 00:06:45.364 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 68 to 92; amount = 43536
+2019-11-21 00:06:45.363 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 26 to 41; amount = 31544
+2019-11-21 00:06:45.363 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 57 to 12; amount = 8135
+2019-11-21 00:06:45.363 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  52 => 93 => 14462 countTransfer 306 maxCountTransfer 305
+2019-11-21 00:06:45.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 52 to 93; amount = 14462
+2019-11-21 00:06:46.363 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  69 => 44 => 0 countTransfer 308 maxCountTransfer 307
+2019-11-21 00:06:46.363 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  24 => 16 => 39451 countTransfer 310 maxCountTransfer 309
+2019-11-21 00:06:46.363 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  6 => 25 => 21312 countTransfer 309 maxCountTransfer 308
+2019-11-21 00:06:46.363 [pool-1-thread-5] INFO  Bank - 		Locked next accounts: 69 and 44
+2019-11-21 00:06:46.363 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 6 to 25; amount = 21312
+2019-11-21 00:06:46.363 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 24 to 16; amount = 39451
+2019-11-21 00:06:47.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  55 => 47 => 38144 countTransfer 313 maxCountTransfer 312
+2019-11-21 00:06:47.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  77 => 11 => 28944 countTransfer 314 maxCountTransfer 313
+2019-11-21 00:06:47.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  11 => 45 => 28617 countTransfer 315 maxCountTransfer 314
+2019-11-21 00:06:47.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  14 => 2 => 1063 countTransfer 316 maxCountTransfer 315
+2019-11-21 00:06:47.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  88 => 54 => 38316 countTransfer 317 maxCountTransfer 316
+2019-11-21 00:06:47.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  83 => 54 => 10908 countTransfer 318 maxCountTransfer 317
+2019-11-21 00:06:47.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 88 to 54; amount = 38316
+2019-11-21 00:06:47.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  68 => 37 => 51642 countTransfer 311 maxCountTransfer 310
+2019-11-21 00:06:47.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 83 to 54; amount = 10908
+2019-11-21 00:06:47.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  75 => 57 => 884 countTransfer 319 maxCountTransfer 318
+2019-11-21 00:06:47.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  88 => 18 => 12001 countTransfer 321 maxCountTransfer 320
+2019-11-21 00:06:47.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  71 => 29 => 40677 countTransfer 322 maxCountTransfer 321
+2019-11-21 00:06:47.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  22 => 88 => 31842 countTransfer 320 maxCountTransfer 319
+2019-11-21 00:06:47.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  57 => 67 => 49093 countTransfer 323 maxCountTransfer 322
+2019-11-21 00:06:47.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  24 => 15 => 9729 countTransfer 324 maxCountTransfer 323
+2019-11-21 00:06:47.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  73 => 23 => 21872 countTransfer 325 maxCountTransfer 324
+2019-11-21 00:06:47.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  22 => 20 => 9144 countTransfer 312 maxCountTransfer 311
+2019-11-21 00:06:47.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 75 to 57; amount = 884
+2019-11-21 00:06:47.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  94 => 30 => 12929 countTransfer 326 maxCountTransfer 325
+2019-11-21 00:06:47.365 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 22 to 20; amount = 9144
+2019-11-21 00:06:47.365 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  34 => 57 => 45031 countTransfer 327 maxCountTransfer 326
+2019-11-21 00:06:47.365 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 34 to 57; amount = 45031
+2019-11-21 00:06:47.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 73 to 23; amount = 21872
+2019-11-21 00:06:47.365 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  67 => 3 => 9923 countTransfer 328 maxCountTransfer 327
+2019-11-21 00:06:47.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  7 => 10 => 43400 countTransfer 329 maxCountTransfer 328
+2019-11-21 00:06:47.365 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  18 => 86 => 22099 countTransfer 330 maxCountTransfer 329
+2019-11-21 00:06:47.365 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  71 => 40 => 3967 countTransfer 331 maxCountTransfer 330
+2019-11-21 00:06:47.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  44 => 69 => 4409 countTransfer 332 maxCountTransfer 331
+2019-11-21 00:06:47.365 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  39 => 3 => 5219 countTransfer 333 maxCountTransfer 332
+2019-11-21 00:06:47.365 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  79 => 61 => 48666 countTransfer 334 maxCountTransfer 333
+2019-11-21 00:06:47.365 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 22 to 88; amount = 31842
+2019-11-21 00:06:47.365 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  78 => 62 => 16957 countTransfer 335 maxCountTransfer 334
+2019-11-21 00:06:47.365 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  42 => 39 => 4815 countTransfer 336 maxCountTransfer 335
+2019-11-21 00:06:47.365 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 88 to 18; amount = 12001
+2019-11-21 00:06:47.365 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 78 to 62; amount = 16957
+2019-11-21 00:06:47.365 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 79 to 61; amount = 48666
+2019-11-21 00:06:47.366 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 18 to 86; amount = 22099
+2019-11-21 00:06:47.366 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 39 to 3; amount = 5219
+2019-11-21 00:06:48.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  44 => 31 => 16782 countTransfer 339 maxCountTransfer 338
+2019-11-21 00:06:48.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  48 => 45 => 0 countTransfer 337 maxCountTransfer 336
+2019-11-21 00:06:48.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  97 => 40 => 7786 countTransfer 340 maxCountTransfer 339
+2019-11-21 00:06:48.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  1 => 51 => 23766 countTransfer 341 maxCountTransfer 340
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  19 => 8 => 29860 countTransfer 342 maxCountTransfer 341
+2019-11-21 00:06:48.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  82 => 98 => 4884 countTransfer 343 maxCountTransfer 342
+2019-11-21 00:06:48.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 1 to 51; amount = 23766
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 19 to 8; amount = 29860
+2019-11-21 00:06:48.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 82 to 98; amount = 4884
+2019-11-21 00:06:48.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  84 => 6 => 36708 countTransfer 344 maxCountTransfer 343
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  29 => 23 => 39973 countTransfer 345 maxCountTransfer 344
+2019-11-21 00:06:48.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  16 => 5 => 19590 countTransfer 346 maxCountTransfer 345
+2019-11-21 00:06:48.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 97 to 40; amount = 7786
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 29 to 23; amount = 39973
+2019-11-21 00:06:48.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  48 => 32 => 6103 countTransfer 347 maxCountTransfer 346
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  68 => 10 => 32453 countTransfer 348 maxCountTransfer 347
+2019-11-21 00:06:48.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 48 to 32; amount = 6103
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 68 to 10; amount = 32453
+2019-11-21 00:06:48.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  55 => 42 => 24873 countTransfer 350 maxCountTransfer 349
+2019-11-21 00:06:48.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  54 => 37 => 48243 countTransfer 351 maxCountTransfer 350
+2019-11-21 00:06:48.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  65 => 5 => 16903 countTransfer 338 maxCountTransfer 337
+2019-11-21 00:06:48.364 [pool-1-thread-4] INFO  Bank - 		Locked next accounts: 48 and 45
+2019-11-21 00:06:48.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  92 => 27 => 30239 countTransfer 349 maxCountTransfer 348
+2019-11-21 00:06:48.365 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 65 to 5; amount = 16903
+2019-11-21 00:06:48.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 16 to 5; amount = 19590
+2019-11-21 00:06:48.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 92 to 27; amount = 30239
+2019-11-21 00:06:48.365 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 84 to 6; amount = 36708
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  6 => 14 => 4964 countTransfer 354 maxCountTransfer 353
+2019-11-21 00:06:49.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  58 => 33 => 34514 countTransfer 355 maxCountTransfer 354
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  43 => 79 => 19605 countTransfer 356 maxCountTransfer 355
+2019-11-21 00:06:49.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 58 to 33; amount = 34514
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 43 to 79; amount = 19605
+2019-11-21 00:06:49.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  90 => 3 => 42288 countTransfer 357 maxCountTransfer 356
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  63 => 52 => 41241 countTransfer 358 maxCountTransfer 357
+2019-11-21 00:06:49.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 90 to 3; amount = 42288
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 63 to 52; amount = 41241
+2019-11-21 00:06:49.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  27 => 45 => 18693 countTransfer 359 maxCountTransfer 358
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  76 => 68 => 44950 countTransfer 360 maxCountTransfer 359
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  54 => 15 => 48928 countTransfer 362 maxCountTransfer 361
+2019-11-21 00:06:49.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  68 => 75 => 25395 countTransfer 363 maxCountTransfer 362
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 68 to 75; amount = 25395
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  73 => 46 => 30109 countTransfer 364 maxCountTransfer 363
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 73 to 46; amount = 30109
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  22 => 72 => 15342 countTransfer 365 maxCountTransfer 364
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  38 => 92 => 33488 countTransfer 366 maxCountTransfer 365
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 38 to 92; amount = 33488
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  99 => 12 => 21241 countTransfer 367 maxCountTransfer 366
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 99 to 12; amount = 21241
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  39 => 49 => 31909 countTransfer 368 maxCountTransfer 367
+2019-11-21 00:06:49.365 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 39 to 49; amount = 31909
+2019-11-21 00:06:49.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  84 => 83 => 54240 countTransfer 352 maxCountTransfer 351
+2019-11-21 00:06:49.365 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 84 to 83; amount = 54240
+2019-11-21 00:06:49.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  61 => 93 => 49097 countTransfer 353 maxCountTransfer 352
+2019-11-21 00:06:49.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  52 => 15 => 14581 countTransfer 361 maxCountTransfer 360
+2019-11-21 00:06:49.365 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 61 to 93; amount = 49097
+2019-11-21 00:06:50.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  12 => 83 => 42123 countTransfer 376 maxCountTransfer 375
+2019-11-21 00:06:50.364 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  32 => 29 => 17676 countTransfer 374 maxCountTransfer 373
+2019-11-21 00:06:50.364 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  13 => 36 => 674 countTransfer 370 maxCountTransfer 369
+2019-11-21 00:06:50.364 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  63 => 23 => 54866 countTransfer 369 maxCountTransfer 368
+2019-11-21 00:06:50.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  18 => 85 => 41803 countTransfer 371 maxCountTransfer 370
+2019-11-21 00:06:50.364 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  23 => 85 => 49822 countTransfer 373 maxCountTransfer 372
+2019-11-21 00:06:50.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 12 to 83; amount = 42123
+2019-11-21 00:06:50.364 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 18 to 85; amount = 41803
+2019-11-21 00:06:50.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  65 => 38 => 36978 countTransfer 377 maxCountTransfer 376
+2019-11-21 00:06:50.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  87 => 78 => 27732 countTransfer 372 maxCountTransfer 371
+2019-11-21 00:06:50.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  9 => 26 => 49952 countTransfer 375 maxCountTransfer 374
+2019-11-21 00:06:50.364 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 65 to 38; amount = 36978
+2019-11-21 00:06:50.364 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 87 to 78; amount = 27732
+2019-11-21 00:06:50.364 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  42 => 46 => 34691 countTransfer 379 maxCountTransfer 378
+2019-11-21 00:06:50.364 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  22 => 69 => 8026 countTransfer 380 maxCountTransfer 379
+2019-11-21 00:06:50.364 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 9 to 26; amount = 49952
+2019-11-21 00:06:50.364 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 63 to 23; amount = 54866
+2019-11-21 00:06:50.364 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  3 => 90 => 41120 countTransfer 381 maxCountTransfer 380
+2019-11-21 00:06:50.364 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  73 => 91 => 39486 countTransfer 378 maxCountTransfer 377
+2019-11-21 00:06:50.364 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 23 to 85; amount = 49822
+2019-11-21 00:06:50.365 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 73 to 91; amount = 39486
+2019-11-21 00:06:50.365 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 32 to 29; amount = 17676
+2019-11-21 00:06:50.365 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 3 to 90; amount = 41120
+2019-11-21 00:12:29.237 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  8 => 30 => 18002 countTransfer 1 maxCountTransfer 0
+2019-11-21 00:12:29.250 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 8 to 30; amount = 18002
+2019-11-21 00:12:29.250 [pool-1-thread-25] INFO  Bank - Thread: pool-1-thread-25 == TRANSFER ===  2 => 33 => 17860 countTransfer 2 maxCountTransfer 1
+2019-11-21 00:12:29.251 [pool-1-thread-25] INFO  Bank - 		TRANSFER: from 2 to 33; amount = 17860
+2019-11-21 00:12:29.252 [pool-1-thread-11] INFO  Bank - Thread: pool-1-thread-11 == TRANSFER ===  20 => 22 => 3781 countTransfer 3 maxCountTransfer 2
+2019-11-21 00:12:29.252 [pool-1-thread-11] INFO  Bank - 		TRANSFER: from 20 to 22; amount = 3781
+2019-11-21 00:12:30.252 [pool-1-thread-23] INFO  Bank - Thread: pool-1-thread-23 == TRANSFER ===  34 => 23 => 8239 countTransfer 4 maxCountTransfer 3
+2019-11-21 00:12:30.253 [pool-1-thread-23] INFO  Bank - 		TRANSFER: from 34 to 23; amount = 8239
+2019-11-21 00:12:30.253 [pool-1-thread-24] INFO  Bank - Thread: pool-1-thread-24 == TRANSFER ===  32 => 33 => 15838 countTransfer 5 maxCountTransfer 4
+2019-11-21 00:12:30.254 [pool-1-thread-24] INFO  Bank - 		TRANSFER: from 32 to 33; amount = 15838
+2019-11-21 00:12:30.254 [pool-1-thread-20] INFO  Bank - Thread: pool-1-thread-20 == TRANSFER ===  39 => 28 => 46475 countTransfer 6 maxCountTransfer 5
+2019-11-21 00:12:30.255 [pool-1-thread-20] INFO  Bank - 		TRANSFER: from 39 to 28; amount = 46475
+2019-11-21 00:12:30.255 [pool-1-thread-22] INFO  Bank - Thread: pool-1-thread-22 == TRANSFER ===  23 => 11 => 14926 countTransfer 7 maxCountTransfer 6
+2019-11-21 00:12:30.256 [pool-1-thread-22] INFO  Bank - 		TRANSFER: from 23 to 11; amount = 14926
+2019-11-21 00:12:30.256 [pool-1-thread-21] INFO  Bank - Thread: pool-1-thread-21 == TRANSFER ===  1 => 4 => 39084 countTransfer 8 maxCountTransfer 7
+2019-11-21 00:12:30.257 [pool-1-thread-21] INFO  Bank - 		TRANSFER: from 1 to 4; amount = 39084
+2019-11-21 00:12:30.257 [pool-1-thread-19] INFO  Bank - Thread: pool-1-thread-19 == TRANSFER ===  14 => 21 => 2410 countTransfer 9 maxCountTransfer 8
+2019-11-21 00:12:30.258 [pool-1-thread-19] INFO  Bank - 		TRANSFER: from 14 to 21; amount = 2410
+2019-11-21 00:12:30.258 [pool-1-thread-18] INFO  Bank - Thread: pool-1-thread-18 == TRANSFER ===  24 => 1 => 35589 countTransfer 10 maxCountTransfer 9
+2019-11-21 00:12:30.259 [pool-1-thread-18] INFO  Bank - 		TRANSFER: from 24 to 1; amount = 35589
+2019-11-21 00:12:30.259 [pool-1-thread-17] INFO  Bank - Thread: pool-1-thread-17 == TRANSFER ===  39 => 25 => 13594 countTransfer 11 maxCountTransfer 10
+2019-11-21 00:12:30.260 [pool-1-thread-17] INFO  Bank - 		TRANSFER: from 39 to 25; amount = 13594
+2019-11-21 00:12:30.260 [pool-1-thread-15] INFO  Bank - Thread: pool-1-thread-15 == TRANSFER ===  8 => 6 => 8713 countTransfer 12 maxCountTransfer 11
+2019-11-21 00:12:30.261 [pool-1-thread-15] INFO  Bank - 		TRANSFER: from 8 to 6; amount = 8713
+2019-11-21 00:12:30.261 [pool-1-thread-16] INFO  Bank - Thread: pool-1-thread-16 == TRANSFER ===  12 => 9 => 28844 countTransfer 13 maxCountTransfer 12
+2019-11-21 00:12:30.262 [pool-1-thread-16] INFO  Bank - 		TRANSFER: from 12 to 9; amount = 28844
+2019-11-21 00:12:30.262 [pool-1-thread-14] INFO  Bank - Thread: pool-1-thread-14 == TRANSFER ===  28 => 23 => 16258 countTransfer 14 maxCountTransfer 13
+2019-11-21 00:12:30.263 [pool-1-thread-14] INFO  Bank - 		TRANSFER: from 28 to 23; amount = 16258
+2019-11-21 00:12:30.263 [pool-1-thread-13] INFO  Bank - Thread: pool-1-thread-13 == TRANSFER ===  7 => 16 => 21965 countTransfer 15 maxCountTransfer 14
+2019-11-21 00:12:30.264 [pool-1-thread-13] INFO  Bank - 		TRANSFER: from 7 to 16; amount = 21965
+2019-11-21 00:12:30.264 [pool-1-thread-12] INFO  Bank - Thread: pool-1-thread-12 == TRANSFER ===  24 => 23 => 23944 countTransfer 16 maxCountTransfer 15
+2019-11-21 00:12:30.265 [pool-1-thread-12] INFO  Bank - 		TRANSFER: from 24 to 23; amount = 23944
+2019-11-21 00:12:30.265 [pool-1-thread-10] INFO  Bank - Thread: pool-1-thread-10 == TRANSFER ===  9 => 6 => 43513 countTransfer 17 maxCountTransfer 16
+2019-11-21 00:12:30.265 [pool-1-thread-10] INFO  Bank - 		TRANSFER: from 9 to 6; amount = 43513
+2019-11-21 00:12:30.266 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  1 => 29 => 16734 countTransfer 18 maxCountTransfer 17
+2019-11-21 00:12:30.266 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 1 to 29; amount = 16734
+2019-11-21 00:12:30.267 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  8 => 31 => 25696 countTransfer 19 maxCountTransfer 18
+2019-11-21 00:12:30.267 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 8 to 31; amount = 25696
+2019-11-21 00:12:30.268 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  10 => 29 => 13719 countTransfer 20 maxCountTransfer 19
+2019-11-21 00:12:30.268 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 10 to 29; amount = 13719
+2019-11-21 00:12:30.268 [pool-1-thread-9] INFO  Bank - Thread: pool-1-thread-9 == TRANSFER ===  4 => 5 => 21652 countTransfer 21 maxCountTransfer 20
+2019-11-21 00:12:30.269 [pool-1-thread-9] INFO  Bank - 		TRANSFER: from 4 to 5; amount = 21652
+2019-11-21 00:12:30.269 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  25 => 36 => 27821 countTransfer 22 maxCountTransfer 21
+2019-11-21 00:12:30.270 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 25 to 36; amount = 27821
+2019-11-21 00:12:30.270 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  17 => 31 => 39545 countTransfer 23 maxCountTransfer 22
+2019-11-21 00:12:30.271 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 17 to 31; amount = 39545
+2019-11-21 00:12:30.271 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  34 => 32 => 7160 countTransfer 24 maxCountTransfer 23
+2019-11-21 00:12:30.272 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 34 to 32; amount = 7160
+2019-11-21 00:12:30.272 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  31 => 3 => 15377 countTransfer 25 maxCountTransfer 24
+2019-11-21 00:12:30.272 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 31 to 3; amount = 15377
+2019-11-21 00:12:30.273 [pool-1-thread-28] INFO  Bank - Thread: pool-1-thread-28 == TRANSFER ===  10 => 22 => 9196 countTransfer 26 maxCountTransfer 25
+2019-11-21 00:12:30.273 [pool-1-thread-28] INFO  Bank - 		TRANSFER: from 10 to 22; amount = 9196
+2019-11-21 00:12:30.274 [pool-1-thread-27] INFO  Bank - Thread: pool-1-thread-27 == TRANSFER ===  38 => 15 => 32465 countTransfer 27 maxCountTransfer 26
+2019-11-21 00:12:30.274 [pool-1-thread-27] INFO  Bank - 		TRANSFER: from 38 to 15; amount = 32465
+2019-11-21 00:12:31.274 [pool-1-thread-26] INFO  Bank - Thread: pool-1-thread-26 == TRANSFER ===  12 => 17 => 2091 countTransfer 28 maxCountTransfer 27
+2019-11-21 00:12:31.275 [pool-1-thread-26] INFO  Bank - 		TRANSFER: from 12 to 17; amount = 2091
+2019-11-21 00:12:31.275 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  15 => 18 => 6941 countTransfer 29 maxCountTransfer 28
+2019-11-21 00:12:31.275 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 15 to 18; amount = 6941
+2019-11-21 00:12:31.276 [pool-1-thread-11] INFO  Bank - Thread: pool-1-thread-11 == TRANSFER ===  38 => 5 => 0 countTransfer 30 maxCountTransfer 29
+2019-11-21 00:12:31.280 [pool-1-thread-11] INFO  Bank - 		Locked next accounts: 38 and 5
+2019-11-21 00:12:31.281 [pool-1-thread-25] INFO  Bank - Thread: pool-1-thread-25 == TRANSFER ===  12 => 1 => 35206 countTransfer 31 maxCountTransfer 30
+2019-11-21 00:12:31.281 [pool-1-thread-25] INFO  Bank - 		TRANSFER: from 12 to 1; amount = 35206
+2019-11-21 00:12:31.281 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  28 => 38 => 28260 countTransfer 32 maxCountTransfer 31
+2019-11-21 00:12:31.282 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  3 => 14 => 48687 countTransfer 33 maxCountTransfer 32
+2019-11-21 00:12:31.282 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 3 to 14; amount = 48687
+2019-11-21 00:12:32.282 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  6 => 23 => 10597 countTransfer 34 maxCountTransfer 33
+2019-11-21 00:12:32.282 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 6 to 23; amount = 10597
+2019-11-21 00:12:32.283 [pool-1-thread-21] INFO  Bank - Thread: pool-1-thread-21 == TRANSFER ===  33 => 17 => 2197 countTransfer 35 maxCountTransfer 34
+2019-11-21 00:12:32.283 [pool-1-thread-21] INFO  Bank - 		TRANSFER: from 33 to 17; amount = 2197
+2019-11-21 00:12:32.283 [pool-1-thread-28] INFO  Bank - Thread: pool-1-thread-28 == TRANSFER ===  23 => 28 => 6460 countTransfer 36 maxCountTransfer 35
+2019-11-21 00:12:32.283 [pool-1-thread-28] INFO  Bank - 		TRANSFER: from 23 to 28; amount = 6460
+2019-11-21 00:12:32.284 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  3 => 30 => 16737 countTransfer 37 maxCountTransfer 36
+2019-11-21 00:12:32.284 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 3 to 30; amount = 16737
+2019-11-21 00:12:32.284 [pool-1-thread-27] INFO  Bank - Thread: pool-1-thread-27 == TRANSFER ===  33 => 9 => 53383 countTransfer 38 maxCountTransfer 37
+2019-11-21 00:12:32.284 [pool-1-thread-27] INFO  Bank - 		TRANSFER: from 33 to 9; amount = 53383
+2019-11-21 00:12:32.285 [pool-1-thread-19] INFO  Bank - Thread: pool-1-thread-19 == TRANSFER ===  5 => 34 => 6661 countTransfer 39 maxCountTransfer 38
+2019-11-21 00:12:32.285 [pool-1-thread-15] INFO  Bank - Thread: pool-1-thread-15 == TRANSFER ===  1 => 21 => 13203 countTransfer 40 maxCountTransfer 39
+2019-11-21 00:12:32.285 [pool-1-thread-15] INFO  Bank - 		TRANSFER: from 1 to 21; amount = 13203
+2019-11-21 00:12:32.285 [pool-1-thread-16] INFO  Bank - Thread: pool-1-thread-16 == TRANSFER ===  32 => 2 => 14074 countTransfer 41 maxCountTransfer 40
+2019-11-21 00:12:32.286 [pool-1-thread-16] INFO  Bank - 		TRANSFER: from 32 to 2; amount = 14074
+2019-11-21 00:12:32.286 [pool-1-thread-18] INFO  Bank - Thread: pool-1-thread-18 == TRANSFER ===  15 => 18 => 21575 countTransfer 42 maxCountTransfer 41
+2019-11-21 00:12:32.286 [pool-1-thread-18] INFO  Bank - 		TRANSFER: from 15 to 18; amount = 21575
+2019-11-21 00:12:32.287 [pool-1-thread-14] INFO  Bank - Thread: pool-1-thread-14 == TRANSFER ===  30 => 14 => 10719 countTransfer 43 maxCountTransfer 42
+2019-11-21 00:12:32.287 [pool-1-thread-14] INFO  Bank - 		TRANSFER: from 30 to 14; amount = 10719
+2019-11-21 00:12:32.287 [pool-1-thread-17] INFO  Bank - Thread: pool-1-thread-17 == TRANSFER ===  10 => 37 => 25234 countTransfer 44 maxCountTransfer 43
+2019-11-21 00:12:32.288 [pool-1-thread-17] INFO  Bank - 		TRANSFER: from 10 to 37; amount = 25234
+2019-11-21 00:12:32.288 [pool-1-thread-13] INFO  Bank - Thread: pool-1-thread-13 == TRANSFER ===  27 => 24 => 15466 countTransfer 45 maxCountTransfer 44
+2019-11-21 00:12:32.288 [pool-1-thread-13] INFO  Bank - 		TRANSFER: from 27 to 24; amount = 15466
+2019-11-21 00:12:33.288 [pool-1-thread-12] INFO  Bank - Thread: pool-1-thread-12 == TRANSFER ===  24 => 31 => 11421 countTransfer 46 maxCountTransfer 45
+2019-11-21 00:12:33.288 [pool-1-thread-12] INFO  Bank - 		TRANSFER: from 24 to 31; amount = 11421
+2019-11-21 00:12:33.288 [pool-1-thread-10] INFO  Bank - Thread: pool-1-thread-10 == TRANSFER ===  6 => 20 => 5840 countTransfer 47 maxCountTransfer 46
+2019-11-21 00:12:33.289 [pool-1-thread-10] INFO  Bank - 		TRANSFER: from 6 to 20; amount = 5840
+2019-11-21 00:12:33.289 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  3 => 10 => 42895 countTransfer 48 maxCountTransfer 47
+2019-11-21 00:12:33.289 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 3 to 10; amount = 42895
+2019-11-21 00:12:33.290 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  21 => 9 => 30309 countTransfer 49 maxCountTransfer 48
+2019-11-21 00:12:33.290 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 21 to 9; amount = 30309
+2019-11-21 00:12:33.290 [pool-1-thread-9] INFO  Bank - Thread: pool-1-thread-9 == TRANSFER ===  37 => 5 => 17652 countTransfer 50 maxCountTransfer 49
+2019-11-21 00:12:33.291 [pool-1-thread-26] INFO  Bank - Thread: pool-1-thread-26 == TRANSFER ===  35 => 2 => 32696 countTransfer 51 maxCountTransfer 50
+2019-11-21 00:12:33.291 [pool-1-thread-26] INFO  Bank - 		TRANSFER: from 35 to 2; amount = 32696
+2019-11-21 00:12:33.291 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  23 => 22 => 47882 countTransfer 52 maxCountTransfer 51
+2019-11-21 00:12:33.291 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 23 to 22; amount = 47882
+2019-11-21 00:12:33.292 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  13 => 14 => 16082 countTransfer 53 maxCountTransfer 52
+2019-11-21 00:12:33.292 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 13 to 14; amount = 16082
+2019-11-21 00:12:33.292 [pool-1-thread-25] INFO  Bank - Thread: pool-1-thread-25 == TRANSFER ===  18 => 35 => 23420 countTransfer 54 maxCountTransfer 53
+2019-11-21 00:12:33.292 [pool-1-thread-25] INFO  Bank - 		TRANSFER: from 18 to 35; amount = 23420
+2019-11-21 00:12:33.293 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  27 => 6 => 13563 countTransfer 55 maxCountTransfer 54
+2019-11-21 00:12:33.293 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 27 to 6; amount = 13563
+2019-11-21 00:12:33.293 [pool-1-thread-11] INFO  Bank - Thread: pool-1-thread-11 == TRANSFER ===  31 => 34 => 45095 countTransfer 56 maxCountTransfer 55
+2019-11-21 00:12:33.293 [pool-1-thread-11] INFO  Bank - 		TRANSFER: from 31 to 34; amount = 45095
+2019-11-21 00:12:33.294 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  34 => 24 => 54476 countTransfer 57 maxCountTransfer 56
+2019-11-21 00:12:33.294 [pool-1-thread-8] INFO  Bank - 		TRANSFER: from 34 to 24; amount = 54476
+2019-11-21 00:12:33.294 [pool-1-thread-28] INFO  Bank - Thread: pool-1-thread-28 == TRANSFER ===  13 => 20 => 21239 countTransfer 58 maxCountTransfer 57
+2019-11-21 00:12:33.294 [pool-1-thread-28] INFO  Bank - 		TRANSFER: from 13 to 20; amount = 21239
+2019-11-21 00:12:34.294 [pool-1-thread-21] INFO  Bank - Thread: pool-1-thread-21 == TRANSFER ===  14 => 1 => 11436 countTransfer 59 maxCountTransfer 58
+2019-11-21 00:12:34.294 [pool-1-thread-21] INFO  Bank - 		TRANSFER: from 14 to 1; amount = 11436
+2019-11-21 00:12:34.294 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  28 => 8 => 15631 countTransfer 60 maxCountTransfer 59
+2019-11-21 00:12:34.295 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 28 to 8; amount = 15631
+2019-11-21 00:12:34.295 [pool-1-thread-19] INFO  Bank - Thread: pool-1-thread-19 == TRANSFER ===  38 => 31 => 22226 countTransfer 61 maxCountTransfer 60
+2019-11-21 00:12:34.295 [pool-1-thread-27] INFO  Bank - Thread: pool-1-thread-27 == TRANSFER ===  17 => 8 => 17292 countTransfer 62 maxCountTransfer 61
+2019-11-21 00:12:34.295 [pool-1-thread-27] INFO  Bank - 		TRANSFER: from 17 to 8; amount = 17292
+2019-11-21 00:12:34.296 [pool-1-thread-15] INFO  Bank - Thread: pool-1-thread-15 == TRANSFER ===  25 => 1 => 15740 countTransfer 63 maxCountTransfer 62
+2019-11-21 00:12:34.296 [pool-1-thread-15] INFO  Bank - 		TRANSFER: from 25 to 1; amount = 15740
+2019-11-21 00:12:34.296 [pool-1-thread-16] INFO  Bank - Thread: pool-1-thread-16 == TRANSFER ===  5 => 9 => 3114 countTransfer 64 maxCountTransfer 63
+2019-11-21 00:12:34.297 [pool-1-thread-18] INFO  Bank - Thread: pool-1-thread-18 == TRANSFER ===  3 => 9 => 11251 countTransfer 65 maxCountTransfer 64
+2019-11-21 00:12:34.297 [pool-1-thread-18] INFO  Bank - 		TRANSFER: from 3 to 9; amount = 11251
+2019-11-21 00:12:34.297 [pool-1-thread-17] INFO  Bank - Thread: pool-1-thread-17 == TRANSFER ===  39 => 9 => 40967 countTransfer 66 maxCountTransfer 65
+2019-11-21 00:12:34.297 [pool-1-thread-17] INFO  Bank - 		TRANSFER: from 39 to 9; amount = 40967
+2019-11-21 00:12:34.298 [pool-1-thread-14] INFO  Bank - Thread: pool-1-thread-14 == TRANSFER ===  9 => 4 => 458 countTransfer 67 maxCountTransfer 66
+2019-11-21 00:12:34.298 [pool-1-thread-14] INFO  Bank - 		TRANSFER: from 9 to 4; amount = 458
+2019-11-21 00:12:34.298 [pool-1-thread-13] INFO  Bank - Thread: pool-1-thread-13 == TRANSFER ===  1 => 12 => 52704 countTransfer 68 maxCountTransfer 67
+2019-11-21 00:12:34.299 [pool-1-thread-13] INFO  Bank - 		TRANSFER: from 1 to 12; amount = 52704
+2019-11-21 00:12:34.299 [pool-1-thread-9] INFO  Bank - Thread: pool-1-thread-9 == TRANSFER ===  35 => 29 => 21359 countTransfer 69 maxCountTransfer 68
+2019-11-21 00:12:34.299 [pool-1-thread-9] INFO  Bank - 		TRANSFER: from 35 to 29; amount = 21359
+2019-11-21 00:12:34.299 [pool-1-thread-26] INFO  Bank - Thread: pool-1-thread-26 == TRANSFER ===  11 => 4 => 46973 countTransfer 70 maxCountTransfer 69
+2019-11-21 00:12:34.300 [pool-1-thread-26] INFO  Bank - 		TRANSFER: from 11 to 4; amount = 46973
+2019-11-21 00:12:35.300 [pool-1-thread-25] INFO  Bank - Thread: pool-1-thread-25 == TRANSFER ===  12 => 32 => 11959 countTransfer 71 maxCountTransfer 70
+2019-11-21 00:12:35.300 [pool-1-thread-25] INFO  Bank - 		TRANSFER: from 12 to 32; amount = 11959
+2019-11-21 00:12:35.300 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  29 => 5 => 47671 countTransfer 72 maxCountTransfer 71
+2019-11-21 00:12:35.301 [pool-1-thread-3] INFO  Bank - Thread: pool-1-thread-3 == TRANSFER ===  19 => 11 => 4646 countTransfer 73 maxCountTransfer 72
+2019-11-21 00:12:35.301 [pool-1-thread-3] INFO  Bank - 		TRANSFER: from 19 to 11; amount = 4646
+2019-11-21 00:12:35.301 [pool-1-thread-29] INFO  Bank - Thread: pool-1-thread-29 == TRANSFER ===  32 => 19 => 31124 countTransfer 74 maxCountTransfer 73
+2019-11-21 00:12:35.302 [pool-1-thread-29] INFO  Bank - 		TRANSFER: from 32 to 19; amount = 31124
+2019-11-21 00:12:35.302 [pool-1-thread-11] INFO  Bank - Thread: pool-1-thread-11 == TRANSFER ===  4 => 9 => 24205 countTransfer 75 maxCountTransfer 74
+2019-11-21 00:12:35.302 [pool-1-thread-11] INFO  Bank - 		TRANSFER: from 4 to 9; amount = 24205
+2019-11-21 00:12:35.302 [pool-1-thread-8] INFO  Bank - Thread: pool-1-thread-8 == TRANSFER ===  38 => 10 => 16960 countTransfer 76 maxCountTransfer 75
+2019-11-21 00:12:35.303 [pool-1-thread-6] INFO  Bank - Thread: pool-1-thread-6 == TRANSFER ===  2 => 37 => 9001 countTransfer 77 maxCountTransfer 76
+2019-11-21 00:12:35.303 [pool-1-thread-6] INFO  Bank - 		TRANSFER: from 2 to 37; amount = 9001
+2019-11-21 00:12:35.303 [pool-1-thread-28] INFO  Bank - Thread: pool-1-thread-28 == TRANSFER ===  22 => 27 => 51686 countTransfer 78 maxCountTransfer 77
+2019-11-21 00:12:35.304 [pool-1-thread-28] INFO  Bank - 		TRANSFER: from 22 to 27; amount = 51686
+2019-11-21 00:12:35.304 [pool-1-thread-1] INFO  Bank - Thread: pool-1-thread-1 == TRANSFER ===  31 => 16 => 10376 countTransfer 79 maxCountTransfer 78
+2019-11-21 00:12:35.304 [pool-1-thread-1] INFO  Bank - 		TRANSFER: from 31 to 16; amount = 10376
+2019-11-21 00:12:35.304 [pool-1-thread-24] INFO  Bank - Thread: pool-1-thread-24 == TRANSFER ===  27 => 37 => 44855 countTransfer 80 maxCountTransfer 79
+2019-11-21 00:12:35.305 [pool-1-thread-24] INFO  Bank - 		TRANSFER: from 27 to 37; amount = 44855
+2019-11-21 00:12:35.305 [pool-1-thread-20] INFO  Bank - Thread: pool-1-thread-20 == TRANSFER ===  11 => 28 => 46482 countTransfer 81 maxCountTransfer 80
+2019-11-21 00:12:35.305 [pool-1-thread-20] INFO  Bank - 		TRANSFER: from 11 to 28; amount = 46482
+2019-11-21 00:12:35.305 [pool-1-thread-22] INFO  Bank - Thread: pool-1-thread-22 == TRANSFER ===  9 => 4 => 23949 countTransfer 82 maxCountTransfer 81
+2019-11-21 00:12:35.306 [pool-1-thread-22] INFO  Bank - 		TRANSFER: from 9 to 4; amount = 23949
+2019-11-21 00:12:35.306 [pool-1-thread-2] INFO  Bank - Thread: pool-1-thread-2 == TRANSFER ===  30 => 31 => 31423 countTransfer 83 maxCountTransfer 82
+2019-11-21 00:12:35.306 [pool-1-thread-2] INFO  Bank - 		TRANSFER: from 30 to 31; amount = 31423
+2019-11-21 00:12:35.306 [pool-1-thread-23] INFO  Bank - Thread: pool-1-thread-23 == TRANSFER ===  23 => 21 => 19 countTransfer 84 maxCountTransfer 83
+2019-11-21 00:12:35.306 [pool-1-thread-23] INFO  Bank - 		TRANSFER: from 23 to 21; amount = 19
+2019-11-21 00:12:35.307 [pool-1-thread-12] INFO  Bank - Thread: pool-1-thread-12 == TRANSFER ===  20 => 15 => 6259 countTransfer 85 maxCountTransfer 84
+2019-11-21 00:12:35.307 [pool-1-thread-12] INFO  Bank - 		TRANSFER: from 20 to 15; amount = 6259
+2019-11-21 00:12:35.307 [pool-1-thread-10] INFO  Bank - Thread: pool-1-thread-10 == TRANSFER ===  16 => 2 => 41223 countTransfer 86 maxCountTransfer 85
+2019-11-21 00:12:35.307 [pool-1-thread-10] INFO  Bank - 		TRANSFER: from 16 to 2; amount = 41223
+2019-11-21 00:12:35.308 [pool-1-thread-4] INFO  Bank - Thread: pool-1-thread-4 == TRANSFER ===  6 => 2 => 3588 countTransfer 87 maxCountTransfer 86
+2019-11-21 00:12:35.308 [pool-1-thread-4] INFO  Bank - 		TRANSFER: from 6 to 2; amount = 3588
+2019-11-21 00:12:35.308 [pool-1-thread-7] INFO  Bank - Thread: pool-1-thread-7 == TRANSFER ===  36 => 9 => 20693 countTransfer 88 maxCountTransfer 87
+2019-11-21 00:12:35.308 [pool-1-thread-7] INFO  Bank - 		TRANSFER: from 36 to 9; amount = 20693
+2019-11-21 00:12:35.309 [pool-1-thread-16] INFO  Bank - Thread: pool-1-thread-16 == TRANSFER ===  5 => 4 => 42596 countTransfer 89 maxCountTransfer 88
+2019-11-21 00:12:35.309 [pool-1-thread-14] INFO  Bank - Thread: pool-1-thread-14 == TRANSFER ===  1 => 36 => 31355 countTransfer 90 maxCountTransfer 89
+2019-11-21 00:12:35.309 [pool-1-thread-14] INFO  Bank - 		TRANSFER: from 1 to 36; amount = 31355
+2019-11-21 00:12:35.309 [pool-1-thread-21] INFO  Bank - Thread: pool-1-thread-21 == TRANSFER ===  12 => 8 => 10276 countTransfer 91 maxCountTransfer 90
+2019-11-21 00:12:35.310 [pool-1-thread-21] INFO  Bank - 		TRANSFER: from 12 to 8; amount = 10276
+2019-11-21 00:12:35.310 [pool-1-thread-27] INFO  Bank - Thread: pool-1-thread-27 == TRANSFER ===  16 => 7 => 26309 countTransfer 92 maxCountTransfer 91
+2019-11-21 00:12:35.310 [pool-1-thread-27] INFO  Bank - 		TRANSFER: from 16 to 7; amount = 26309
+2019-11-21 00:12:35.310 [pool-1-thread-18] INFO  Bank - Thread: pool-1-thread-18 == TRANSFER ===  13 => 29 => 8678 countTransfer 93 maxCountTransfer 92
+2019-11-21 00:12:35.311 [pool-1-thread-18] INFO  Bank - 		TRANSFER: from 13 to 29; amount = 8678
+2019-11-21 00:12:35.311 [pool-1-thread-5] INFO  Bank - Thread: pool-1-thread-5 == TRANSFER ===  39 => 21 => 36781 countTransfer 94 maxCountTransfer 93
+2019-11-21 00:12:35.311 [pool-1-thread-5] INFO  Bank - 		TRANSFER: from 39 to 21; amount = 36781
+2019-11-21 00:12:35.311 [pool-1-thread-19] INFO  Bank - Thread: pool-1-thread-19 == TRANSFER ===  38 => 18 => 10452 countTransfer 95 maxCountTransfer 94
+2019-11-21 00:12:35.312 [pool-1-thread-15] INFO  Bank - Thread: pool-1-thread-15 == TRANSFER ===  10 => 36 => 905 countTransfer 96 maxCountTransfer 95
+2019-11-21 00:12:35.312 [pool-1-thread-15] INFO  Bank - 		TRANSFER: from 10 to 36; amount = 905
+2019-11-21 00:12:35.312 [pool-1-thread-17] INFO  Bank - Thread: pool-1-thread-17 == TRANSFER ===  20 => 16 => 20934 countTransfer 97 maxCountTransfer 96
+2019-11-21 00:12:35.312 [pool-1-thread-17] INFO  Bank - 		TRANSFER: from 20 to 16; amount = 20934
+2019-11-21 00:12:35.313 [pool-1-thread-9] INFO  Bank - Thread: pool-1-thread-9 == TRANSFER ===  3 => 1 => 23341 countTransfer 98 maxCountTransfer 97
+2019-11-21 00:12:35.313 [pool-1-thread-9] INFO  Bank - 		TRANSFER: from 3 to 1; amount = 23341
+2019-11-21 00:12:35.313 [pool-1-thread-26] INFO  Bank - Thread: pool-1-thread-26 == TRANSFER ===  19 => 15 => 53835 countTransfer 99 maxCountTransfer 98
+2019-11-21 00:12:35.313 [pool-1-thread-26] INFO  Bank - 		TRANSFER: from 19 to 15; amount = 53835
+2019-11-21 00:12:35.313 [pool-1-thread-13] INFO  Bank - Thread: pool-1-thread-13 == TRANSFER ===  5 => 17 => 35115 countTransfer 100 maxCountTransfer 99

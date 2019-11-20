@@ -39,7 +39,7 @@ public class Bank
      */
 
 
-    void transfer(PaymentDetails paymentDetails) {
+    synchronized void transfer(PaymentDetails paymentDetails) {
 
         maxCountTransfer = Math.max(maxCountTransfer, countTransfer);
         ++countTransfer;
@@ -50,31 +50,29 @@ public class Bank
 
         if (paymentDetails.getAmount() == null) {
 
-//            synchronized (this) {
+
                 accounts.get(paymentDetails.getFromAccountNum()).setLocked(true);
                 accounts.get(paymentDetails.getToAccountNum()).setLocked(true);
 
                 logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tLocked next accounts: "
                         + paymentDetails.getFromAccountNum() + " and " + paymentDetails.getToAccountNum());
-//            }
+
         } else {
 
             if (!accounts.get(paymentDetails.getFromAccountNum()).isLocked() && !accounts.get(paymentDetails.getToAccountNum()).isLocked()) {
 
-//                synchronized (this) {
                         accounts.get(paymentDetails.getFromAccountNum()).debetMoney(paymentDetails.getAmount());
                         accounts.get(paymentDetails.getToAccountNum()).addMoney(paymentDetails.getAmount());
 
-                        logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
-                                + paymentDetails.getFromAccountNum() + " to " + paymentDetails.getToAccountNum()
-                                + "; amount = " + paymentDetails.getAmount() );
+                    logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
+                            + paymentDetails.getFromAccountNum() + " to " + paymentDetails.getToAccountNum()
+                            + "; amount = " + paymentDetails.getAmount() );
 
-//                    }
                 }
             }
         }
 
-    void transfer(String fromAccountNum, String toAccountNum, long amount) {
+    synchronized void  transfer(String fromAccountNum, String toAccountNum, long amount) {
 
         maxCountTransfer = Math.max(maxCountTransfer, countTransfer);
         ++countTransfer;
@@ -89,19 +87,17 @@ public class Bank
 
         if (amount == 0) {
 
-//            synchronized (this) {
             accounts.get(fromAccountNum).setLocked(true);
             accounts.get(toAccountNum).setLocked(true);
 
             logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tLocked next accounts: "
                     + fromAccountNum + " and " + toAccountNum );
 
-//            }
         } else {
 
             if (!accounts.get(fromAccountNum).isLocked() && !accounts.get(toAccountNum).isLocked()) {
 
-//                synchronized (this) {
+
                 accounts.get(fromAccountNum).debetMoney(amount);
                 accounts.get(toAccountNum).addMoney(amount);
 
@@ -109,7 +105,6 @@ public class Bank
                         + fromAccountNum + " to " + toAccountNum
                         + "; amount = " + amount );
 
-//                    }
             }
         }
     }
@@ -129,15 +124,4 @@ public class Bank
         return totalBalance;
     }
 
-    public ConcurrentHashMap<String, Account> getAccounts() {
-        return accounts;
-    }
-
-    public void setAccounts(ConcurrentHashMap<String, Account> accounts) {
-        this.accounts = accounts;
-    }
-
-    public Random getRandom() {
-        return random;
-    }
 }

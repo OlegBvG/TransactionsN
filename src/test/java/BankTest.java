@@ -10,20 +10,23 @@ public class BankTest {
 
     private ConcurrentHashMap<String, Account> accounts = new ConcurrentHashMap<>();
     private Bank bank;
-//    public final CountDownLatch START = new CountDownLatch(10);
-    private final int ACCOUNT_NUMBERS = 100;
-    private final int THREADS = 8;
-    private final int TRANSFERS_COUNT = 1_000;
 
-//    ExecutorService exec = Executors.newCachedThreadPool();
-    ExecutorService exec = Executors.newFixedThreadPool(THREADS);
+//    public final CountDownLatch START = new CountDownLatch(10);
+    private final int ACCOUNT_NUMBERS = 40;
+    private final int THREADS = 8;
+    private final int TRANSFERS_COUNT = 1_00;
+
+//  --  ExecutorService exec = Executors.newCachedThreadPool();
+//    ExecutorService exec = Executors.newFixedThreadPool(THREADS);
+//    ThreadPoolExecutor exec = (ThreadPoolExecutor) Executors.newFixedThreadPool(THREADS);
+    ThreadPoolExecutor exec = (ThreadPoolExecutor) Executors.newCachedThreadPool();
 
     @Before
     public void setUp() {
         String numberAcc;
 
 
-        for (int i = 1; i < ACCOUNT_NUMBERS; i++) {
+        for (int i = 1; i <= ACCOUNT_NUMBERS; i++) {
             numberAcc = String.valueOf(i).trim();
             accounts.put(numberAcc, new Account(numberAcc, 1000000, false));
         }
@@ -55,7 +58,10 @@ public class BankTest {
                 toAccountNum = (String.valueOf((int) ((Math.random() * (ACCOUNT_NUMBERS - 1)) + 1)));
             }
 
-            amount = (long) (Math.random() * 55000);
+            do {
+                amount = (long) (Math.random() * 55000);
+
+            } while (amount == 0);
 
 
 /*           if (amount > 50000 && bank.isFraud(fromAccountNum, toAccountNum, amount)) {
@@ -89,9 +95,10 @@ public class BankTest {
 
 
             System.out.println("Active THREAD => " + Thread.activeCount());
+        while (exec.getCompletedTaskCount()<TRANSFERS_COUNT)  Thread.sleep(100);
             exec.shutdown();
 
-        while(Thread.activeCount() > 2){
+        while(!exec.isShutdown()) {
             System.out.println("Active THREAD in => " + Thread.activeCount());
             System.out.println("Active THREAD in => " + Thread.getAllStackTraces());
             Thread.sleep(100);
