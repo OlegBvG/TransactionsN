@@ -14,7 +14,7 @@ public class BankTest {
 //    public final CountDownLatch START = new CountDownLatch(10);
     private final int ACCOUNT_NUMBERS = 40;
     private final int THREADS = 8;
-    private final int TRANSFERS_COUNT = 1_00;
+    private final int TRANSFERS_COUNT = 1_000;
 
 //  --  ExecutorService exec = Executors.newCachedThreadPool();
 //    ExecutorService exec = Executors.newFixedThreadPool(THREADS);

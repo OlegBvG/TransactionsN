@@ -72,7 +72,7 @@ public class Bank
             }
         }
 
-    synchronized void  transfer(String fromAccountNum, String toAccountNum, long amount) {
+     void  transfer(String fromAccountNum, String toAccountNum, long amount) {
 
         maxCountTransfer = Math.max(maxCountTransfer, countTransfer);
         ++countTransfer;
@@ -97,9 +97,19 @@ public class Bank
 
             if (!accounts.get(fromAccountNum).isLocked() && !accounts.get(toAccountNum).isLocked()) {
 
+ /*               synchronized (accounts.get(fromAccountNum)) {
+                    synchronized (accounts.get(toAccountNum)) {
+                        accounts.get(fromAccountNum).debetMoney(amount);
+                        accounts.get(toAccountNum).addMoney(amount);
+                    }
+                }
+*/
 
-                accounts.get(fromAccountNum).debetMoney(amount);
-                accounts.get(toAccountNum).addMoney(amount);
+                synchronized (this) {
+                    accounts.get(fromAccountNum).debetMoney(amount);
+                    accounts.get(toAccountNum).addMoney(amount);
+                }
+
 
                 logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
                         + fromAccountNum + " to " + toAccountNum
