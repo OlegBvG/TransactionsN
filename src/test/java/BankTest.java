@@ -3,6 +3,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Scanner;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -23,6 +24,7 @@ public class BankTest {
 
     @Before
     public void setUp() {
+//        new Scanner(System.in).nextLine();
         String numberAcc;
 
 
@@ -83,7 +85,7 @@ public class BankTest {
             String finalFromAccountNum = fromAccountNum;
             String finalToAccountNum = toAccountNum;
             long finalAmount = amount;
-
+//System.out.println(finalFromAccountNum.compareTo(finalToAccountNum) + " - "+ finalFromAccountNum + " - " + finalToAccountNum);
             Runnable r = () -> {
                 bank.transfer(finalFromAccountNum, finalToAccountNum, finalAmount);
             };

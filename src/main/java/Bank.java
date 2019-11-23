@@ -97,25 +97,36 @@ public class Bank
 
             if (!accounts.get(fromAccountNum).isLocked() && !accounts.get(toAccountNum).isLocked()) {
 
- /*               synchronized (accounts.get(fromAccountNum)) {
-                    synchronized (accounts.get(toAccountNum)) {
+                if (fromAccountNum.compareTo(toAccountNum) > 0) {
+
+                    synchronized (accounts.get(fromAccountNum)) {
                         accounts.get(fromAccountNum).debetMoney(amount);
+                        synchronized (accounts.get(toAccountNum)) {
+                            accounts.get(toAccountNum).addMoney(amount);
+                        }
+                    }
+                } else {
+                    synchronized (accounts.get(toAccountNum)) {
                         accounts.get(toAccountNum).addMoney(amount);
+                        synchronized (accounts.get(fromAccountNum)) {
+                            accounts.get(fromAccountNum).debetMoney(amount);
+
+                        }
+                    }
+
+
+//                synchronized (this) {
+//                    accounts.get(fromAccountNum).debetMoney(amount);
+//                    accounts.get(toAccountNum).addMoney(amount);
+//                }
+
+
+                        logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
+                                + fromAccountNum + " to " + toAccountNum
+                                + "; amount = " + amount);
+
                     }
                 }
-*/
-
-                synchronized (this) {
-                    accounts.get(fromAccountNum).debetMoney(amount);
-                    accounts.get(toAccountNum).addMoney(amount);
-                }
-
-
-                logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
-                        + fromAccountNum + " to " + toAccountNum
-                        + "; amount = " + amount );
-
-            }
         }
     }
 
