@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="333bbd91-bd8b-4c1a-b1ad-fe90b529fb6a" name="Default Changelist" comment="">
+    <list default="true" id="333bbd91-bd8b-4c1a-b1ad-fe90b529fb6a" name="Default Changelist" comment="Concurrency (change synchronized method, add order)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BankTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574450329714</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Concurrency (change synchronized method)">
+      <created>1574544567777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574544567777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +151,9 @@
     <MESSAGE value="Concurrency" />
     <MESSAGE value="Concurrency two" />
     <MESSAGE value="Concurrency (part of the code)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concurrency (part of the code)" />
+    <MESSAGE value="Concurrency (change synchronized method)" />
+    <MESSAGE value="Concurrency (change synchronized method, add order)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency (change synchronized method, add order)" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -19,8 +19,8 @@ public class BankTest {
 
 //  --  ExecutorService exec = Executors.newCachedThreadPool();
 //    ExecutorService exec = Executors.newFixedThreadPool(THREADS);
-//    ThreadPoolExecutor exec = (ThreadPoolExecutor) Executors.newFixedThreadPool(THREADS);
-    ThreadPoolExecutor exec = (ThreadPoolExecutor) Executors.newCachedThreadPool();
+    private ThreadPoolExecutor exec = (ThreadPoolExecutor) Executors.newFixedThreadPool(THREADS);
+//    ThreadPoolExecutor exec = (ThreadPoolExecutor) Executors.newCachedThreadPool();
 
     @Before
     public void setUp() {
@@ -86,9 +86,7 @@ public class BankTest {
             String finalToAccountNum = toAccountNum;
             long finalAmount = amount;
 //System.out.println(finalFromAccountNum.compareTo(finalToAccountNum) + " - "+ finalFromAccountNum + " - " + finalToAccountNum);
-            Runnable r = () -> {
-                bank.transfer(finalFromAccountNum, finalToAccountNum, finalAmount);
-            };
+            Runnable r = () -> bank.transfer(finalFromAccountNum, finalToAccountNum, finalAmount);
 
             //------------------
 

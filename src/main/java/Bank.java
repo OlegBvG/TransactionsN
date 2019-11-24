@@ -74,6 +74,21 @@ public class Bank
 
      void  transfer(String fromAccountNum, String toAccountNum, long amount) {
 
+         Account fromAccount = accounts.get(fromAccountNum);
+         Account toAccount = accounts.get(toAccountNum);
+
+         Account lowSyncAccount;
+         Account topSyncAccount;
+
+         if (fromAccount.hashCode() > toAccount.hashCode()) { //тут мы выбираем заранее порядок сортировки чтобы не дублировать код блоков синхронизации. Так как внутри переменных ссылок, то мы можем "жонглировать" ссылками и менять местами.
+             lowSyncAccount = fromAccount;
+             topSyncAccount = toAccount;
+         } else {
+             lowSyncAccount = toAccount;
+             topSyncAccount = fromAccount;
+         }
+
+
         maxCountTransfer = Math.max(maxCountTransfer, countTransfer);
         ++countTransfer;
 
@@ -86,47 +101,32 @@ public class Bank
                 + " => сумма " + amount + " countTransfer " + countTransfer + " maxCountTransfer " + maxCountTransfer );
 
         if (amount == 0) {
+            synchronized (lowSyncAccount) {
+                synchronized (topSyncAccount) {
+                    fromAccount.setLocked(true);
+                    toAccount.setLocked(true);
+                }
+            }
 
-            accounts.get(fromAccountNum).setLocked(true);
-            accounts.get(toAccountNum).setLocked(true);
-
-            logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tLocked next accounts: "
-                    + fromAccountNum + " and " + toAccountNum );
+                    logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tLocked next accounts: "
+                            + fromAccountNum + " and " + toAccountNum);
 
         } else {
 
-            if (!accounts.get(fromAccountNum).isLocked() && !accounts.get(toAccountNum).isLocked()) {
+            if (!fromAccount.isLocked() && !toAccount.isLocked()) {
 
-                if (fromAccountNum.compareTo(toAccountNum) > 0) {
-
-                    synchronized (accounts.get(fromAccountNum)) {
-                        accounts.get(fromAccountNum).debetMoney(amount);
-                        synchronized (accounts.get(toAccountNum)) {
-                            accounts.get(toAccountNum).addMoney(amount);
+                synchronized (lowSyncAccount) {
+                    synchronized (topSyncAccount) {
+                        fromAccount.debetMoney(amount);
+                        toAccount.addMoney(amount);
                         }
                     }
-                } else {
-                    synchronized (accounts.get(toAccountNum)) {
-                        accounts.get(toAccountNum).addMoney(amount);
-                        synchronized (accounts.get(fromAccountNum)) {
-                            accounts.get(fromAccountNum).debetMoney(amount);
-
-                        }
-                    }
-
-
-//                synchronized (this) {
-//                    accounts.get(fromAccountNum).debetMoney(amount);
-//                    accounts.get(toAccountNum).addMoney(amount);
-//                }
-
+                }
 
                         logger.info(Bank.INPUT_HISTORY_MARKER, "\t\tTRANSFER: from "
                                 + fromAccountNum + " to " + toAccountNum
                                 + "; amount = " + amount);
 
-                    }
-                }
         }
     }
 
@@ -139,7 +139,7 @@ public class Bank
         return accounts.get(accountNum).getMoney();
     }
 
-    public AtomicLong getBalanceBank(){
+    AtomicLong getBalanceBank(){
         AtomicLong totalBalance = new AtomicLong();
         accounts.forEach((k, v) -> totalBalance.addAndGet(v.getMoney()));
         return totalBalance;
